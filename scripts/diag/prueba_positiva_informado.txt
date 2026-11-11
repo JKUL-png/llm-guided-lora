@@ -1,0 +1,7 @@
+Corre estas órdenes, cada una sola, exactamente como están, sin cd antes y sin nada después. La tercera tarda más de 10 minutos: espera a que termine.
+python herramientas/consultar.py contexto
+python herramientas/consultar.py saldo
+python herramientas/consultar.py generar --problemas 39,40 --muestras 4 --temperatura 1.0
+python herramientas/consultar.py ver-muestra 1 --desde 0 --hasta 200
+python herramientas/consultar.py saldo
+Después dime en una línea qué devolvió la última y cuántas muestras terminaron.

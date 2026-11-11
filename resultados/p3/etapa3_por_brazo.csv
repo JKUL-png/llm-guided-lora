@@ -1,0 +1,4 @@
+brazo,nombre,n,pct_correctas,ic95_correctas_bajo,ic95_correctas_alto,pct_al_limite,ic95_al_limite_bajo,ic95_al_limite_alto,tokens_medios,pct_varios_cierres
+e,(e) automatico barrido a 1.0,400,54.25,46.5,61.75,0.25,0.0,0.75,5539.4,30.0
+N,original sin thinking a 1.0 (ref.),400,51.5,44.25,58.75,1.0,0.25,2.0,8064.4,0.0
+T,original con thinking a 1.0 (ref.),400,17.75,12.25,24.0,82.25,76.0,87.75,29661.8,0.25

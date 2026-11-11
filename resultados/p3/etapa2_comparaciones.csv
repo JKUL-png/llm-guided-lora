@@ -1,0 +1,32 @@
+familia,estado,metrica,X,Y,comparacion,pct_X,pct_Y,dif_puntos,ic95_bajo,ic95_alto,solo_X,solo_Y,p_mcnemar,p_holm,tamano_familia,sobrevive_holm_0.05
+principal_PLAN6,FIJADA_EN_PLAN,correctas,b,c,(b) Opus informado - (c) placebo al azar,54.0,55.5,-1.5,-6.25,3.25,43,49,0.60241,0.60241,2,no
+principal_PLAN6,FIJADA_EN_PLAN,correctas,b,d,(b) Opus informado - (d) automatico gradiente,54.0,51.25,2.75,-2.25,8.0,52,41,0.29973,0.59946,2,no
+secundaria_PLAN6,FIJADA_EN_PLAN,correctas,b,a,(b) Opus informado - (a) normal 24 capas,54.0,45.5,8.5,3.5,13.75,62,28,0.00044,0.00044,1,si
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,a,N,(a) normal 24 capas - original sin thinking (ref.),45.5,51.75,-6.25,-12.75,0.0,45,70,0.02479,0.12395,6,no
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,b,N,(b) Opus informado - original sin thinking (ref.),54.0,51.75,2.25,-3.0,7.25,52,43,0.41191,1.0,6,no
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,c,N,(c) placebo al azar - original sin thinking (ref.),55.5,51.75,3.75,-1.5,9.0,50,35,0.1284,0.5136,6,no
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,d,N,(d) automatico gradiente - original sin thinking (ref.),51.25,51.75,-0.5,-6.25,5.25,51,53,0.92195,1.0,6,no
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,e,N,(e) automatico barrido - original sin thinking (ref.),58.5,51.75,6.75,1.5,12.0,64,37,0.00934,0.05604,6,no
+vs_sin_thinking_PLAN6,FIJADA_EN_PLAN,correctas,f,N,(f) Opus + barrido - original sin thinking (ref.),52.0,51.75,0.25,-4.75,5.25,49,48,1.0,1.0,6,no
+vs_a_pedida_usuario,EXPLORATORIO,correctas,b,a,(b) Opus informado - (a) normal 24 capas,54.0,45.5,8.5,3.5,13.75,62,28,0.00044,0.00132,5,si
+vs_a_pedida_usuario,EXPLORATORIO,correctas,c,a,(c) placebo al azar - (a) normal 24 capas,55.5,45.5,10.0,5.0,15.5,71,31,9e-05,0.00036,5,si
+vs_a_pedida_usuario,EXPLORATORIO,correctas,d,a,(d) automatico gradiente - (a) normal 24 capas,51.25,45.5,5.75,1.0,10.5,56,33,0.01919,0.03762,5,si
+vs_a_pedida_usuario,EXPLORATORIO,correctas,e,a,(e) automatico barrido - (a) normal 24 capas,58.5,45.5,13.0,8.25,17.75,78,26,0.0,0,5,si
+vs_a_pedida_usuario,EXPLORATORIO,correctas,f,a,(f) Opus + barrido - (a) normal 24 capas,52.0,45.5,6.5,1.0,12.0,70,44,0.01881,0.03762,5,si
+vs_a_pedida_usuario,EXPLORATORIO,al_limite,b,a,(b) Opus informado - (a) normal 24 capas,10.5,2.5,8.0,4.5,11.75,38,6,0.0,0,5,si
+vs_a_pedida_usuario,EXPLORATORIO,al_limite,c,a,(c) placebo al azar - (a) normal 24 capas,6.0,2.5,3.5,1.0,6.0,20,6,0.00936,0.021,5,si
+vs_a_pedida_usuario,EXPLORATORIO,al_limite,d,a,(d) automatico gradiente - (a) normal 24 capas,9.5,2.5,7.0,3.25,11.25,36,8,3e-05,0.00012,5,si
+vs_a_pedida_usuario,EXPLORATORIO,al_limite,e,a,(e) automatico barrido - (a) normal 24 capas,5.75,2.5,3.25,0.75,6.0,21,8,0.02412,0.02412,5,si
+vs_a_pedida_usuario,EXPLORATORIO,al_limite,f,a,(f) Opus + barrido - (a) normal 24 capas,6.5,2.5,4.0,1.25,7.0,24,8,0.007,0.021,5,si
+centrales_no_fijadas,EXPLORATORIO,correctas,f,c,(f) Opus + barrido - (c) placebo al azar,52.0,55.5,-3.5,-8.5,1.25,39,53,0.17498,0.52494,5,no
+centrales_no_fijadas,EXPLORATORIO,correctas,d,c,(d) automatico gradiente - (c) placebo al azar,51.25,55.5,-4.25,-9.75,1.25,41,58,0.10735,0.4294,5,no
+centrales_no_fijadas,EXPLORATORIO,correctas,e,c,(e) automatico barrido - (c) placebo al azar,58.5,55.5,3.0,-1.75,7.75,47,35,0.22424,0.52494,5,no
+centrales_no_fijadas,EXPLORATORIO,correctas,f,d,(f) Opus + barrido - (d) automatico gradiente,52.0,51.25,0.75,-3.75,5.25,45,42,0.83037,0.83037,5,no
+centrales_no_fijadas,EXPLORATORIO,correctas,f,e,(f) Opus + barrido - (e) automatico barrido,52.0,58.5,-6.5,-11.0,-2.25,30,56,0.00667,0.03335,5,si
+al_limite_4capas,EXPLORATORIO,al_limite,b,c,(b) Opus informado - (c) placebo al azar,10.5,6.0,4.5,1.0,8.25,35,17,0.01753,0.12271,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,b,d,(b) Opus informado - (d) automatico gradiente,10.5,9.5,1.0,-2.75,4.75,29,25,0.68349,1.0,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,f,c,(f) Opus + barrido - (c) placebo al azar,6.5,6.0,0.5,-2.75,3.75,24,22,0.883,1.0,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,d,c,(d) automatico gradiente - (c) placebo al azar,9.5,6.0,3.5,-0.25,7.5,30,16,0.05408,0.32448,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,e,c,(e) automatico barrido - (c) placebo al azar,5.75,6.0,-0.25,-3.25,2.5,18,19,1.0,1.0,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,f,d,(f) Opus + barrido - (d) automatico gradiente,6.5,9.5,-3.0,-7.25,1.25,23,35,0.14801,0.74005,7,no
+al_limite_4capas,EXPLORATORIO,al_limite,f,e,(f) Opus + barrido - (e) automatico barrido,6.5,5.75,0.75,-2.25,4.0,19,16,0.73588,1.0,7,no

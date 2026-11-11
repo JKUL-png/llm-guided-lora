@@ -1,0 +1,5 @@
+decision,media_pct_al_limite,referencia_pct,baja_exigida_puntos,baja_observada_puntos,semilla,n,pct_al_limite,pct_correctas,tokens_medios,varios_cierres
+PASA,2.5,92.25,20.0,89.75,0,100,6.0,53.0,5091,33
+PASA,2.5,92.25,20.0,89.75,1,100,3.0,40.0,4346,15
+PASA,2.5,92.25,20.0,89.75,2,100,0.0,49.0,3801,15
+PASA,2.5,92.25,20.0,89.75,3,100,1.0,40.0,3479,8

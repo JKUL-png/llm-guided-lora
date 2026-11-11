@@ -1,0 +1,10 @@
+medida,a_semilla0_nueva,P1b
+pasos,49,49
+tokens_entrenados,3269949,3269949
+perdida_inicial,0.3445,0.3445
+perdida_final,0.1534,0.153
+max_abs_dif_registro_perdida,0.0007,0
+dif_relativa_max_normaDW_por_tensor,0.00161,0
+control20_correctas,7,8
+control20_al_limite,4,1
+control20_tokens_medios,9007,6167

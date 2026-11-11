@@ -1,0 +1,7 @@
+tarea,referencia,brazo,parejas,original_acierta,original_falla,pct_empeora,pct_mejora,pct_igual,pct_empeora_dado_original_acierta,pct_mejora_dado_original_falla,neto_mejora_menos_empeora,estado,ic95_pct_empeora_bajo,ic95_pct_empeora_alto,ic95_pct_mejora_bajo,ic95_pct_mejora_alto,ic95_neto_bajo,ic95_neto_alto
+ifeval,original_think_T06,a,400,75,325,4.25,34.5,61.25,22.67,42.46,30.25,EXPLORATORIO,2.25,6.5,28.5,40.75,23.5,37.25
+ifeval,original_think_T06,b,400,75,325,6.75,33.25,60.0,36.0,40.92,26.5,EXPLORATORIO,4.0,9.75,27.25,39.5,19.0,33.75
+ifeval,original_think_T06,c,400,75,325,3.25,32.75,64.0,17.33,40.31,29.5,EXPLORATORIO,1.5,5.25,26.75,38.75,23.0,36.0
+ifeval,original_think_T06,d,400,75,325,5.0,31.75,63.25,26.67,39.08,26.75,EXPLORATORIO,2.5,7.75,25.75,38.0,19.5,33.75
+ifeval,original_think_T06,e,400,75,325,5.0,38.0,57.0,26.67,46.77,33.0,EXPLORATORIO,2.75,7.5,31.25,44.5,25.5,40.25
+ifeval,original_think_T06,f,400,75,325,5.25,36.5,58.25,28.0,44.92,31.25,EXPLORATORIO,3.0,7.75,30.0,43.0,24.0,38.25

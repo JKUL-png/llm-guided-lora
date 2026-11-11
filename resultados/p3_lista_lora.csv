@@ -1,0 +1,25 @@
+n,brazo,nombre,semilla,sesion_diagnostico,capas,n_capas,rango,alfa,parametros_formula,parametros_contados_peft,lr,epocas,acumular,perdida,max_tokens,ejemplos,tokens_datos,datos,sha256_datos
+1,a,normal: 24 capas,0,-,0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23,24,8,16,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+2,a,normal: 24 capas,1,-,0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23,24,8,16,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+3,a,normal: 24 capas,2,-,0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23,24,8,16,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+4,a,normal: 24 capas,3,-,0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23,24,8,16,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+5,b,Opus informado,0,4,11;15;19;22,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+6,b,Opus informado,1,1,14;19;22;23,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+7,b,Opus informado,2,2,12;15;17;20,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+8,b,Opus informado,3,3,10;14;15;22,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+9,c,placebo al azar,0,-,1;2;4;20,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+10,c,placebo al azar,1,-,12;14;18;21,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+11,c,placebo al azar,2,-,7;9;10;14,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+12,c,placebo al azar,3,-,1;5;9;15,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+13,d,automático por gradiente,0,-,10;14;15;23,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+14,d,automático por gradiente,1,-,10;14;15;23,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+15,d,automático por gradiente,2,-,10;14;15;23,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+16,d,automático por gradiente,3,-,10;14;15;23,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+17,e,barrido automático,0,-,0;10;12;15,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+18,e,barrido automático,1,-,0;10;12;15,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+19,e,barrido automático,2,-,0;10;12;15,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+20,e,barrido automático,3,-,0;10;12;15,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+21,f,Opus + barrido,0,1,10;14;15;17,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+22,f,Opus + barrido,1,1,10;14;15;17,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+23,f,Opus + barrido,2,2,10;14;15;18,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120
+24,f,Opus + barrido,3,2,10;14;15;18,4,48,96,2654208,2654208,0.0002,1,8,salida,22000,388,3269949,datos/lora_bucles.jsonl,2174817fd9ce4120

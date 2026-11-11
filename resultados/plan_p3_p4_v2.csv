@@ -1,0 +1,16 @@
+etapa,parte,gpu_horas_lo,gpu_horas_hi,origen
+"ETAPA 1: brazo (a), 4 semillas, 0.6",entrenar 4 LoRA (25.8 min medidos en P1b),1.72,1.72,medido
+"ETAPA 1: brazo (a), 4 semillas, 0.6",fusionar 4 (segundos),0.07,0.07,medido en P1b: unos 6 s
+"ETAPA 1: brazo (a), 4 semillas, 0.6",evaluar 4 celdas MATH-100 a 0.6,2.15,3.7,paper 1: 0.54-0.93 h por celda
+"ETAPA 1: brazo (a), 4 semillas, 0.6",20 de control de (a) s0 (reproducibilidad vs P1b),0.1,0.1,P1b: unos 4 min
+"ETAPA 2: 20 LoRA (b a f), 0.6",entrenar 20 LoRA de 4 capas (rango 48),6.88,9.89,supuesto: 0.8 a 1.15 veces los 25.8 min (velocidad con 4 capas sin medir)
+"ETAPA 2: 20 LoRA (b a f), 0.6",fusionar 20,0.3,0.3,medido: segundos cada uno
+"ETAPA 2: 20 LoRA (b a f), 0.6",evaluar 20 celdas MATH-100 a 0.6,10.75,18.5,paper 1: 0.54-0.93 h por celda
+ETAPA 3: temperatura 1.0,mejor brazo a 1.0 (4 celdas),3.0,3.42,paper 1: 0.75-0.86 h por celda
+ETAPA 3: temperatura 1.0,"referencia: original sin thinking, MATH a 1.0 (P4b)",0.8,1.6,supuesto del PLAN (11.9 min medidos a 0.6)
+"ETAPA 1: brazo (a), 4 semillas, 0.6",SUBTOTAL,4.0,5.6,suma
+"ETAPA 2: 20 LoRA (b a f), 0.6",SUBTOTAL,17.9,28.7,suma
+ETAPA 3: temperatura 1.0,SUBTOTAL,3.8,5.0,suma
+TOTAL P3+P4+P4b (nuevo),,25.8,39.3,suma
+"Antes (plan_p3_p4_6brazos.csv, sin barrido)",,40.1,56.4,"24 LoRA, 48 celdas (0.6 y 1.0 en todos), P4b"
+Diferencia,,-14.3,-17.1,resta

@@ -1,0 +1,469 @@
+que,valor_csv_original,valor_recalculado,coincide
+etapa2 principal_PLAN6 b-c dif_puntos,-1.5,-1.5,si
+etapa2 principal_PLAN6 b-c ic95_bajo,-6.25,-6.25,si
+etapa2 principal_PLAN6 b-c ic95_alto,3.25,3.25,si
+etapa2 principal_PLAN6 b-c solo_X,43,43,si
+etapa2 principal_PLAN6 b-c solo_Y,49,49,si
+etapa2 principal_PLAN6 b-c p_mcnemar,0.60241,0.602412,si
+etapa2 principal_PLAN6 b-d dif_puntos,2.75,2.75,si
+etapa2 principal_PLAN6 b-d ic95_bajo,-2.25,-2.25,si
+etapa2 principal_PLAN6 b-d ic95_alto,8.0,8.0,si
+etapa2 principal_PLAN6 b-d solo_X,52,52,si
+etapa2 principal_PLAN6 b-d solo_Y,41,41,si
+etapa2 principal_PLAN6 b-d p_mcnemar,0.29973,0.299732,si
+etapa2 secundaria_PLAN6 b-a dif_puntos,8.5,8.5,si
+etapa2 secundaria_PLAN6 b-a ic95_bajo,3.5,3.5,si
+etapa2 secundaria_PLAN6 b-a ic95_alto,13.75,13.75,si
+etapa2 secundaria_PLAN6 b-a solo_X,62,62,si
+etapa2 secundaria_PLAN6 b-a solo_Y,28,28,si
+etapa2 secundaria_PLAN6 b-a p_mcnemar,0.00044,0.000438,si
+etapa2 vs_sin_thinking_PLAN6 a-N dif_puntos,-6.25,-6.25,si
+etapa2 vs_sin_thinking_PLAN6 a-N ic95_bajo,-12.75,-12.75,si
+etapa2 vs_sin_thinking_PLAN6 a-N ic95_alto,0.0,0.0,si
+etapa2 vs_sin_thinking_PLAN6 a-N solo_X,45,45,si
+etapa2 vs_sin_thinking_PLAN6 a-N solo_Y,70,70,si
+etapa2 vs_sin_thinking_PLAN6 a-N p_mcnemar,0.02479,0.024794,si
+etapa2 vs_sin_thinking_PLAN6 b-N dif_puntos,2.25,2.25,si
+etapa2 vs_sin_thinking_PLAN6 b-N ic95_bajo,-3.0,-3.0,si
+etapa2 vs_sin_thinking_PLAN6 b-N ic95_alto,7.25,7.25,si
+etapa2 vs_sin_thinking_PLAN6 b-N solo_X,52,52,si
+etapa2 vs_sin_thinking_PLAN6 b-N solo_Y,43,43,si
+etapa2 vs_sin_thinking_PLAN6 b-N p_mcnemar,0.41191,0.41191,si
+etapa2 vs_sin_thinking_PLAN6 c-N dif_puntos,3.75,3.75,si
+etapa2 vs_sin_thinking_PLAN6 c-N ic95_bajo,-1.5,-1.5,si
+etapa2 vs_sin_thinking_PLAN6 c-N ic95_alto,9.0,9.0,si
+etapa2 vs_sin_thinking_PLAN6 c-N solo_X,50,50,si
+etapa2 vs_sin_thinking_PLAN6 c-N solo_Y,35,35,si
+etapa2 vs_sin_thinking_PLAN6 c-N p_mcnemar,0.1284,0.128396,si
+etapa2 vs_sin_thinking_PLAN6 d-N dif_puntos,-0.5,-0.5,si
+etapa2 vs_sin_thinking_PLAN6 d-N ic95_bajo,-6.25,-6.25,si
+etapa2 vs_sin_thinking_PLAN6 d-N ic95_alto,5.25,5.25,si
+etapa2 vs_sin_thinking_PLAN6 d-N solo_X,51,51,si
+etapa2 vs_sin_thinking_PLAN6 d-N solo_Y,53,53,si
+etapa2 vs_sin_thinking_PLAN6 d-N p_mcnemar,0.92195,0.921949,si
+etapa2 vs_sin_thinking_PLAN6 e-N dif_puntos,6.75,6.75,si
+etapa2 vs_sin_thinking_PLAN6 e-N ic95_bajo,1.5,1.5,si
+etapa2 vs_sin_thinking_PLAN6 e-N ic95_alto,12.0,12.0,si
+etapa2 vs_sin_thinking_PLAN6 e-N solo_X,64,64,si
+etapa2 vs_sin_thinking_PLAN6 e-N solo_Y,37,37,si
+etapa2 vs_sin_thinking_PLAN6 e-N p_mcnemar,0.00934,0.009335,si
+etapa2 vs_sin_thinking_PLAN6 f-N dif_puntos,0.25,0.25,si
+etapa2 vs_sin_thinking_PLAN6 f-N ic95_bajo,-4.75,-4.75,si
+etapa2 vs_sin_thinking_PLAN6 f-N ic95_alto,5.25,5.25,si
+etapa2 vs_sin_thinking_PLAN6 f-N solo_X,49,49,si
+etapa2 vs_sin_thinking_PLAN6 f-N solo_Y,48,48,si
+etapa2 vs_sin_thinking_PLAN6 f-N p_mcnemar,1.0,1.0,si
+etapa2 vs_a_pedida_usuario b-a dif_puntos,8.5,8.5,si
+etapa2 vs_a_pedida_usuario b-a ic95_bajo,3.5,3.5,si
+etapa2 vs_a_pedida_usuario b-a ic95_alto,13.75,13.75,si
+etapa2 vs_a_pedida_usuario b-a solo_X,62,62,si
+etapa2 vs_a_pedida_usuario b-a solo_Y,28,28,si
+etapa2 vs_a_pedida_usuario b-a p_mcnemar,0.00044,0.000438,si
+etapa2 vs_a_pedida_usuario c-a dif_puntos,10.0,10.0,si
+etapa2 vs_a_pedida_usuario c-a ic95_bajo,5.0,5.0,si
+etapa2 vs_a_pedida_usuario c-a ic95_alto,15.5,15.5,si
+etapa2 vs_a_pedida_usuario c-a solo_X,71,71,si
+etapa2 vs_a_pedida_usuario c-a solo_Y,31,31,si
+etapa2 vs_a_pedida_usuario c-a p_mcnemar,9e-05,9.3e-05,si
+etapa2 vs_a_pedida_usuario d-a dif_puntos,5.75,5.75,si
+etapa2 vs_a_pedida_usuario d-a ic95_bajo,1.0,1.0,si
+etapa2 vs_a_pedida_usuario d-a ic95_alto,10.5,10.5,si
+etapa2 vs_a_pedida_usuario d-a solo_X,56,56,si
+etapa2 vs_a_pedida_usuario d-a solo_Y,33,33,si
+etapa2 vs_a_pedida_usuario d-a p_mcnemar,0.01919,0.019187,si
+etapa2 vs_a_pedida_usuario e-a dif_puntos,13.0,13.0,si
+etapa2 vs_a_pedida_usuario e-a ic95_bajo,8.25,8.25,si
+etapa2 vs_a_pedida_usuario e-a ic95_alto,17.75,17.75,si
+etapa2 vs_a_pedida_usuario e-a solo_X,78,78,si
+etapa2 vs_a_pedida_usuario e-a solo_Y,26,26,si
+etapa2 vs_a_pedida_usuario e-a p_mcnemar,0.0,0.0,si
+etapa2 vs_a_pedida_usuario f-a dif_puntos,6.5,6.5,si
+etapa2 vs_a_pedida_usuario f-a ic95_bajo,1.0,1.0,si
+etapa2 vs_a_pedida_usuario f-a ic95_alto,12.0,12.0,si
+etapa2 vs_a_pedida_usuario f-a solo_X,70,70,si
+etapa2 vs_a_pedida_usuario f-a solo_Y,44,44,si
+etapa2 vs_a_pedida_usuario f-a p_mcnemar,0.01881,0.018811,si
+etapa2 centrales_no_fijadas f-c dif_puntos,-3.5,-3.5,si
+etapa2 centrales_no_fijadas f-c ic95_bajo,-8.5,-8.5,si
+etapa2 centrales_no_fijadas f-c ic95_alto,1.25,1.25,si
+etapa2 centrales_no_fijadas f-c solo_X,39,39,si
+etapa2 centrales_no_fijadas f-c solo_Y,53,53,si
+etapa2 centrales_no_fijadas f-c p_mcnemar,0.17498,0.174984,si
+etapa2 centrales_no_fijadas d-c dif_puntos,-4.25,-4.25,si
+etapa2 centrales_no_fijadas d-c ic95_bajo,-9.75,-9.75,si
+etapa2 centrales_no_fijadas d-c ic95_alto,1.25,1.25,si
+etapa2 centrales_no_fijadas d-c solo_X,41,41,si
+etapa2 centrales_no_fijadas d-c solo_Y,58,58,si
+etapa2 centrales_no_fijadas d-c p_mcnemar,0.10735,0.107352,si
+etapa2 centrales_no_fijadas e-c dif_puntos,3.0,3.0,si
+etapa2 centrales_no_fijadas e-c ic95_bajo,-1.75,-1.75,si
+etapa2 centrales_no_fijadas e-c ic95_alto,7.75,7.75,si
+etapa2 centrales_no_fijadas e-c solo_X,47,47,si
+etapa2 centrales_no_fijadas e-c solo_Y,35,35,si
+etapa2 centrales_no_fijadas e-c p_mcnemar,0.22424,0.224245,si
+etapa2 centrales_no_fijadas f-d dif_puntos,0.75,0.75,si
+etapa2 centrales_no_fijadas f-d ic95_bajo,-3.75,-3.75,si
+etapa2 centrales_no_fijadas f-d ic95_alto,5.25,5.25,si
+etapa2 centrales_no_fijadas f-d solo_X,45,45,si
+etapa2 centrales_no_fijadas f-d solo_Y,42,42,si
+etapa2 centrales_no_fijadas f-d p_mcnemar,0.83037,0.830373,si
+etapa2 centrales_no_fijadas f-e dif_puntos,-6.5,-6.5,si
+etapa2 centrales_no_fijadas f-e ic95_bajo,-11.0,-11.0,si
+etapa2 centrales_no_fijadas f-e ic95_alto,-2.25,-2.25,si
+etapa2 centrales_no_fijadas f-e solo_X,30,30,si
+etapa2 centrales_no_fijadas f-e solo_Y,56,56,si
+etapa2 centrales_no_fijadas f-e p_mcnemar,0.00667,0.006674,si
+etapa3 vs_sin_thinking_T10 e-N dif_puntos,2.75,2.75,si
+etapa3 vs_sin_thinking_T10 e-N ic95_bajo,-3.5,-3.5,si
+etapa3 vs_sin_thinking_T10 e-N ic95_alto,9.0,9.0,si
+etapa3 vs_sin_thinking_T10 e-N solo_X,69,69,si
+etapa3 vs_sin_thinking_T10 e-N solo_Y,58,58,si
+etapa3 vs_sin_thinking_T10 e-N p_mcnemar,0.374957,0.374957,si
+etapa3 vs_con_thinking_T10 e-T dif_puntos,36.5,36.5,si
+etapa3 vs_con_thinking_T10 e-T ic95_bajo,29.75,29.75,si
+etapa3 vs_con_thinking_T10 e-T ic95_alto,43.5,43.5,si
+etapa3 vs_con_thinking_T10 e-T solo_X,153,153,si
+etapa3 vs_con_thinking_T10 e-T solo_Y,7,7,si
+etapa3 vs_con_thinking_T10 e-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_sin_thinking a-N dif_puntos,10.0,10.0,si
+p5 gsm8k vs_sin_thinking a-N ic95_bajo,4.5,4.5,si
+p5 gsm8k vs_sin_thinking a-N ic95_alto,15.75,15.75,si
+p5 gsm8k vs_sin_thinking a-N solo_X,75,75,si
+p5 gsm8k vs_sin_thinking a-N solo_Y,35,35,si
+p5 gsm8k vs_sin_thinking a-N p_mcnemar,0.000172,0.000172,si
+p5 gsm8k vs_sin_thinking b-N dif_puntos,12.75,12.75,si
+p5 gsm8k vs_sin_thinking b-N ic95_bajo,7.0,7.0,si
+p5 gsm8k vs_sin_thinking b-N ic95_alto,18.75,18.75,si
+p5 gsm8k vs_sin_thinking b-N solo_X,82,82,si
+p5 gsm8k vs_sin_thinking b-N solo_Y,31,31,si
+p5 gsm8k vs_sin_thinking b-N p_mcnemar,2e-06,2e-06,si
+p5 gsm8k vs_sin_thinking c-N dif_puntos,12.0,12.0,si
+p5 gsm8k vs_sin_thinking c-N ic95_bajo,6.75,6.75,si
+p5 gsm8k vs_sin_thinking c-N ic95_alto,17.75,17.75,si
+p5 gsm8k vs_sin_thinking c-N solo_X,73,73,si
+p5 gsm8k vs_sin_thinking c-N solo_Y,25,25,si
+p5 gsm8k vs_sin_thinking c-N p_mcnemar,1e-06,1e-06,si
+p5 gsm8k vs_sin_thinking d-N dif_puntos,12.5,12.5,si
+p5 gsm8k vs_sin_thinking d-N ic95_bajo,7.5,7.5,si
+p5 gsm8k vs_sin_thinking d-N ic95_alto,17.5,17.5,si
+p5 gsm8k vs_sin_thinking d-N solo_X,73,73,si
+p5 gsm8k vs_sin_thinking d-N solo_Y,23,23,si
+p5 gsm8k vs_sin_thinking d-N p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_sin_thinking e-N dif_puntos,12.0,12.0,si
+p5 gsm8k vs_sin_thinking e-N ic95_bajo,7.0,7.0,si
+p5 gsm8k vs_sin_thinking e-N ic95_alto,17.25,17.25,si
+p5 gsm8k vs_sin_thinking e-N solo_X,77,77,si
+p5 gsm8k vs_sin_thinking e-N solo_Y,29,29,si
+p5 gsm8k vs_sin_thinking e-N p_mcnemar,3e-06,3e-06,si
+p5 gsm8k vs_sin_thinking f-N dif_puntos,11.25,11.25,si
+p5 gsm8k vs_sin_thinking f-N ic95_bajo,6.0,6.0,si
+p5 gsm8k vs_sin_thinking f-N ic95_alto,16.75,16.75,si
+p5 gsm8k vs_sin_thinking f-N solo_X,76,76,si
+p5 gsm8k vs_sin_thinking f-N solo_Y,31,31,si
+p5 gsm8k vs_sin_thinking f-N p_mcnemar,1.6e-05,1.6e-05,si
+p5 gsm8k vs_con_thinking a-T dif_puntos,53.75,53.75,si
+p5 gsm8k vs_con_thinking a-T ic95_bajo,46.75,46.75,si
+p5 gsm8k vs_con_thinking a-T ic95_alto,60.5,60.5,si
+p5 gsm8k vs_con_thinking a-T solo_X,216,216,si
+p5 gsm8k vs_con_thinking a-T solo_Y,1,1,si
+p5 gsm8k vs_con_thinking a-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_con_thinking b-T dif_puntos,56.5,56.5,si
+p5 gsm8k vs_con_thinking b-T ic95_bajo,49.5,49.5,si
+p5 gsm8k vs_con_thinking b-T ic95_alto,63.5,63.5,si
+p5 gsm8k vs_con_thinking b-T solo_X,229,229,si
+p5 gsm8k vs_con_thinking b-T solo_Y,3,3,si
+p5 gsm8k vs_con_thinking b-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_con_thinking c-T dif_puntos,55.75,55.75,si
+p5 gsm8k vs_con_thinking c-T ic95_bajo,48.75,48.75,si
+p5 gsm8k vs_con_thinking c-T ic95_alto,62.75,62.75,si
+p5 gsm8k vs_con_thinking c-T solo_X,224,224,si
+p5 gsm8k vs_con_thinking c-T solo_Y,1,1,si
+p5 gsm8k vs_con_thinking c-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_con_thinking d-T dif_puntos,56.25,56.25,si
+p5 gsm8k vs_con_thinking d-T ic95_bajo,49.25,49.25,si
+p5 gsm8k vs_con_thinking d-T ic95_alto,63.25,63.25,si
+p5 gsm8k vs_con_thinking d-T solo_X,227,227,si
+p5 gsm8k vs_con_thinking d-T solo_Y,2,2,si
+p5 gsm8k vs_con_thinking d-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_con_thinking e-T dif_puntos,55.75,55.75,si
+p5 gsm8k vs_con_thinking e-T ic95_bajo,48.75,48.75,si
+p5 gsm8k vs_con_thinking e-T ic95_alto,62.75,62.75,si
+p5 gsm8k vs_con_thinking e-T solo_X,225,225,si
+p5 gsm8k vs_con_thinking e-T solo_Y,2,2,si
+p5 gsm8k vs_con_thinking e-T p_mcnemar,0.0,0.0,si
+p5 gsm8k vs_con_thinking f-T dif_puntos,55.0,55.0,si
+p5 gsm8k vs_con_thinking f-T ic95_bajo,47.5,47.5,si
+p5 gsm8k vs_con_thinking f-T ic95_alto,62.25,62.25,si
+p5 gsm8k vs_con_thinking f-T solo_X,222,222,si
+p5 gsm8k vs_con_thinking f-T solo_Y,2,2,si
+p5 gsm8k vs_con_thinking f-T p_mcnemar,0.0,0.0,si
+p5 gsm8k secundaria_b_vs_a b-a dif_puntos,2.75,2.75,si
+p5 gsm8k secundaria_b_vs_a b-a ic95_bajo,-1.25,-1.25,si
+p5 gsm8k secundaria_b_vs_a b-a ic95_alto,6.75,6.75,si
+p5 gsm8k secundaria_b_vs_a b-a solo_X,42,42,si
+p5 gsm8k secundaria_b_vs_a b-a solo_Y,31,31,si
+p5 gsm8k secundaria_b_vs_a b-a p_mcnemar,0.241645,0.241645,si
+p5 gsm8k exploratoria_b_vs_c_d b-c dif_puntos,0.75,0.75,si
+p5 gsm8k exploratoria_b_vs_c_d b-c ic95_bajo,-4.25,-4.25,si
+p5 gsm8k exploratoria_b_vs_c_d b-c ic95_alto,6.0,6.0,si
+p5 gsm8k exploratoria_b_vs_c_d b-c solo_X,45,45,si
+p5 gsm8k exploratoria_b_vs_c_d b-c solo_Y,42,42,si
+p5 gsm8k exploratoria_b_vs_c_d b-c p_mcnemar,0.830373,0.830373,si
+p5 gsm8k exploratoria_b_vs_c_d b-d dif_puntos,0.25,0.25,si
+p5 gsm8k exploratoria_b_vs_c_d b-d ic95_bajo,-4.75,-4.75,si
+p5 gsm8k exploratoria_b_vs_c_d b-d ic95_alto,5.25,5.25,si
+p5 gsm8k exploratoria_b_vs_c_d b-d solo_X,45,45,si
+p5 gsm8k exploratoria_b_vs_c_d b-d solo_Y,44,44,si
+p5 gsm8k exploratoria_b_vs_c_d b-d p_mcnemar,1.0,1.0,si
+p5 ifeval vs_sin_thinking a-N dif_puntos,-1.0,-1.0,si
+p5 ifeval vs_sin_thinking a-N ic95_bajo,-8.0,-8.0,si
+p5 ifeval vs_sin_thinking a-N ic95_alto,6.0,6.0,si
+p5 ifeval vs_sin_thinking a-N solo_X,58,58,si
+p5 ifeval vs_sin_thinking a-N solo_Y,62,62,si
+p5 ifeval vs_sin_thinking a-N p_mcnemar,0.784328,0.784328,si
+p5 ifeval vs_sin_thinking b-N dif_puntos,-4.75,-4.75,si
+p5 ifeval vs_sin_thinking b-N ic95_bajo,-11.5,-11.5,si
+p5 ifeval vs_sin_thinking b-N ic95_alto,2.0,2.0,si
+p5 ifeval vs_sin_thinking b-N solo_X,51,51,si
+p5 ifeval vs_sin_thinking b-N solo_Y,70,70,si
+p5 ifeval vs_sin_thinking b-N p_mcnemar,0.101368,0.101368,si
+p5 ifeval vs_sin_thinking c-N dif_puntos,-1.75,-1.75,si
+p5 ifeval vs_sin_thinking c-N ic95_bajo,-9.0,-9.0,si
+p5 ifeval vs_sin_thinking c-N ic95_alto,5.5,5.5,si
+p5 ifeval vs_sin_thinking c-N solo_X,61,61,si
+p5 ifeval vs_sin_thinking c-N solo_Y,68,68,si
+p5 ifeval vs_sin_thinking c-N p_mcnemar,0.597485,0.597485,si
+p5 ifeval vs_sin_thinking d-N dif_puntos,-4.5,-4.5,si
+p5 ifeval vs_sin_thinking d-N ic95_bajo,-11.0,-11.0,si
+p5 ifeval vs_sin_thinking d-N ic95_alto,2.0,2.0,si
+p5 ifeval vs_sin_thinking d-N solo_X,53,53,si
+p5 ifeval vs_sin_thinking d-N solo_Y,71,71,si
+p5 ifeval vs_sin_thinking d-N p_mcnemar,0.12651,0.12651,si
+p5 ifeval vs_sin_thinking e-N dif_puntos,1.75,1.75,si
+p5 ifeval vs_sin_thinking e-N ic95_bajo,-5.5,-5.5,si
+p5 ifeval vs_sin_thinking e-N ic95_alto,9.0,9.0,si
+p5 ifeval vs_sin_thinking e-N solo_X,67,67,si
+p5 ifeval vs_sin_thinking e-N solo_Y,60,60,si
+p5 ifeval vs_sin_thinking e-N p_mcnemar,0.594615,0.594615,si
+p5 ifeval vs_sin_thinking f-N dif_puntos,0.0,0.0,si
+p5 ifeval vs_sin_thinking f-N ic95_bajo,-6.5,-6.5,si
+p5 ifeval vs_sin_thinking f-N ic95_alto,6.75,6.75,si
+p5 ifeval vs_sin_thinking f-N solo_X,57,57,si
+p5 ifeval vs_sin_thinking f-N solo_Y,57,57,si
+p5 ifeval vs_sin_thinking f-N p_mcnemar,1.0,1.0,si
+p5 ifeval vs_con_thinking a-T dif_puntos,30.25,30.25,si
+p5 ifeval vs_con_thinking a-T ic95_bajo,23.5,23.5,si
+p5 ifeval vs_con_thinking a-T ic95_alto,37.25,37.25,si
+p5 ifeval vs_con_thinking a-T solo_X,138,138,si
+p5 ifeval vs_con_thinking a-T solo_Y,17,17,si
+p5 ifeval vs_con_thinking a-T p_mcnemar,0.0,0.0,si
+p5 ifeval vs_con_thinking b-T dif_puntos,26.5,26.5,si
+p5 ifeval vs_con_thinking b-T ic95_bajo,19.0,19.0,si
+p5 ifeval vs_con_thinking b-T ic95_alto,33.75,33.75,si
+p5 ifeval vs_con_thinking b-T solo_X,133,133,si
+p5 ifeval vs_con_thinking b-T solo_Y,27,27,si
+p5 ifeval vs_con_thinking b-T p_mcnemar,0.0,0.0,si
+p5 ifeval vs_con_thinking c-T dif_puntos,29.5,29.5,si
+p5 ifeval vs_con_thinking c-T ic95_bajo,23.0,23.0,si
+p5 ifeval vs_con_thinking c-T ic95_alto,36.0,36.0,si
+p5 ifeval vs_con_thinking c-T solo_X,131,131,si
+p5 ifeval vs_con_thinking c-T solo_Y,13,13,si
+p5 ifeval vs_con_thinking c-T p_mcnemar,0.0,0.0,si
+p5 ifeval vs_con_thinking d-T dif_puntos,26.75,26.75,si
+p5 ifeval vs_con_thinking d-T ic95_bajo,19.5,19.5,si
+p5 ifeval vs_con_thinking d-T ic95_alto,33.75,33.75,si
+p5 ifeval vs_con_thinking d-T solo_X,127,127,si
+p5 ifeval vs_con_thinking d-T solo_Y,20,20,si
+p5 ifeval vs_con_thinking d-T p_mcnemar,0.0,0.0,si
+p5 ifeval vs_con_thinking e-T dif_puntos,33.0,33.0,si
+p5 ifeval vs_con_thinking e-T ic95_bajo,25.5,25.5,si
+p5 ifeval vs_con_thinking e-T ic95_alto,40.25,40.25,si
+p5 ifeval vs_con_thinking e-T solo_X,152,152,si
+p5 ifeval vs_con_thinking e-T solo_Y,20,20,si
+p5 ifeval vs_con_thinking e-T p_mcnemar,0.0,0.0,si
+p5 ifeval vs_con_thinking f-T dif_puntos,31.25,31.25,si
+p5 ifeval vs_con_thinking f-T ic95_bajo,24.0,24.0,si
+p5 ifeval vs_con_thinking f-T ic95_alto,38.25,38.25,si
+p5 ifeval vs_con_thinking f-T solo_X,146,146,si
+p5 ifeval vs_con_thinking f-T solo_Y,21,21,si
+p5 ifeval vs_con_thinking f-T p_mcnemar,0.0,0.0,si
+p5 ifeval secundaria_b_vs_a b-a dif_puntos,-3.75,-3.75,si
+p5 ifeval secundaria_b_vs_a b-a ic95_bajo,-9.0,-9.0,si
+p5 ifeval secundaria_b_vs_a b-a ic95_alto,1.5,1.5,si
+p5 ifeval secundaria_b_vs_a b-a solo_X,47,47,si
+p5 ifeval secundaria_b_vs_a b-a solo_Y,62,62,si
+p5 ifeval secundaria_b_vs_a b-a p_mcnemar,0.179671,0.179671,si
+p5 ifeval exploratoria_b_vs_c_d b-c dif_puntos,-3.0,-3.0,si
+p5 ifeval exploratoria_b_vs_c_d b-c ic95_bajo,-8.0,-8.0,si
+p5 ifeval exploratoria_b_vs_c_d b-c ic95_alto,1.75,1.75,si
+p5 ifeval exploratoria_b_vs_c_d b-c solo_X,48,48,si
+p5 ifeval exploratoria_b_vs_c_d b-c solo_Y,60,60,si
+p5 ifeval exploratoria_b_vs_c_d b-c p_mcnemar,0.289798,0.289798,si
+p5 ifeval exploratoria_b_vs_c_d b-d dif_puntos,-0.25,-0.25,si
+p5 ifeval exploratoria_b_vs_c_d b-d ic95_bajo,-5.5,-5.5,si
+p5 ifeval exploratoria_b_vs_c_d b-d ic95_alto,4.75,4.75,si
+p5 ifeval exploratoria_b_vs_c_d b-d solo_X,57,57,si
+p5 ifeval exploratoria_b_vs_c_d b-d solo_Y,58,58,si
+p5 ifeval exploratoria_b_vs_c_d b-d p_mcnemar,1.0,1.0,si
+math T06 brazo a pct_correctas,45.5,45.5,si
+math T06 brazo a ic95_correctas_bajo,37.75,37.75,si
+math T06 brazo a ic95_correctas_alto,53.25,53.25,si
+math T06 brazo a pct_al_limite,2.5,2.5,si
+math T06 brazo a tokens_medios,4179.2,4179.2,si
+math T06 brazo a pct_varios_cierres,17.75,17.75,si
+math T06 brazo b pct_correctas,54.0,54.0,si
+math T06 brazo b ic95_correctas_bajo,46.5,46.5,si
+math T06 brazo b ic95_correctas_alto,61.5,61.5,si
+math T06 brazo b pct_al_limite,10.5,10.5,si
+math T06 brazo b tokens_medios,7554.0,7554.0,si
+math T06 brazo b pct_varios_cierres,39.25,39.25,si
+math T06 brazo c pct_correctas,55.5,55.5,si
+math T06 brazo c ic95_correctas_bajo,47.5,47.5,si
+math T06 brazo c ic95_correctas_alto,63.5,63.5,si
+math T06 brazo c pct_al_limite,6.0,6.0,si
+math T06 brazo c tokens_medios,6265.6,6265.6,si
+math T06 brazo c pct_varios_cierres,18.5,18.5,si
+math T06 brazo d pct_correctas,51.25,51.25,si
+math T06 brazo d ic95_correctas_bajo,43.75,43.75,si
+math T06 brazo d ic95_correctas_alto,58.75,58.75,si
+math T06 brazo d pct_al_limite,9.5,9.5,si
+math T06 brazo d tokens_medios,7344.3,7344.3,si
+math T06 brazo d pct_varios_cierres,29.5,29.5,si
+math T06 brazo e pct_correctas,58.5,58.5,si
+math T06 brazo e ic95_correctas_bajo,50.5,50.5,si
+math T06 brazo e ic95_correctas_alto,66.25,66.25,si
+math T06 brazo e pct_al_limite,5.75,5.75,si
+math T06 brazo e tokens_medios,6140.0,6140.0,si
+math T06 brazo e pct_varios_cierres,21.75,21.75,si
+math T06 brazo f pct_correctas,52.0,52.0,si
+math T06 brazo f ic95_correctas_bajo,44.25,44.25,si
+math T06 brazo f ic95_correctas_alto,59.5,59.5,si
+math T06 brazo f pct_al_limite,6.5,6.5,si
+math T06 brazo f tokens_medios,6585.6,6585.6,si
+math T06 brazo f pct_varios_cierres,27.0,27.0,si
+math T06 brazo T pct_correctas,7.75,7.75,si
+math T06 brazo T ic95_correctas_bajo,4.0,4.0,si
+math T06 brazo T ic95_correctas_alto,12.0,12.0,si
+math T06 brazo T pct_al_limite,92.25,92.25,si
+math T06 brazo T tokens_medios,30769.8,30769.8,si
+math T06 brazo T pct_varios_cierres,0.0,0.0,si
+math T06 brazo N pct_correctas,51.75,51.75,si
+math T06 brazo N ic95_correctas_bajo,44.0,44.0,si
+math T06 brazo N ic95_correctas_alto,59.25,59.25,si
+math T06 brazo N pct_al_limite,12.0,12.0,si
+math T06 brazo N tokens_medios,7955.0,7955.0,si
+math T06 brazo N pct_varios_cierres,0.0,0.0,si
+math T10 brazo e pct_correctas,54.25,54.25,si
+math T10 brazo e ic95_correctas_bajo,46.5,46.5,si
+math T10 brazo e ic95_correctas_alto,61.75,61.75,si
+math T10 brazo e pct_al_limite,0.25,0.25,si
+math T10 brazo e tokens_medios,5539.4,5539.4,si
+math T10 brazo e pct_varios_cierres,30.0,30.0,si
+math T10 brazo N pct_correctas,51.5,51.5,si
+math T10 brazo N ic95_correctas_bajo,44.25,44.25,si
+math T10 brazo N ic95_correctas_alto,58.75,58.75,si
+math T10 brazo N pct_al_limite,1.0,1.0,si
+math T10 brazo N tokens_medios,8064.4,8064.4,si
+math T10 brazo N pct_varios_cierres,0.0,0.0,si
+math T10 brazo T pct_correctas,17.75,17.75,si
+math T10 brazo T ic95_correctas_bajo,12.25,12.25,si
+math T10 brazo T ic95_correctas_alto,24.0,24.0,si
+math T10 brazo T pct_al_limite,82.25,82.25,si
+math T10 brazo T tokens_medios,29661.8,29661.8,si
+math T10 brazo T pct_varios_cierres,0.25,0.25,si
+gsm8k T06 brazo a pct_correctas,65.5,65.5,si
+gsm8k T06 brazo a ic95_correctas_bajo,58.0,58.0,si
+gsm8k T06 brazo a ic95_correctas_alto,72.75,72.75,si
+gsm8k T06 brazo a pct_al_limite,1.75,1.75,si
+gsm8k T06 brazo a tokens_medios,2326.6,2326.6,si
+gsm8k T06 brazo a pct_varios_cierres,11.75,11.75,si
+gsm8k T06 brazo b pct_correctas,68.25,68.25,si
+gsm8k T06 brazo b ic95_correctas_bajo,60.5,60.5,si
+gsm8k T06 brazo b ic95_correctas_alto,75.5,75.5,si
+gsm8k T06 brazo b pct_al_limite,4.5,4.5,si
+gsm8k T06 brazo b tokens_medios,3420.4,3420.4,si
+gsm8k T06 brazo b pct_varios_cierres,14.5,14.5,si
+gsm8k T06 brazo c pct_correctas,67.5,67.5,si
+gsm8k T06 brazo c ic95_correctas_bajo,59.75,59.75,si
+gsm8k T06 brazo c ic95_correctas_alto,75.0,75.0,si
+gsm8k T06 brazo c pct_al_limite,2.0,2.0,si
+gsm8k T06 brazo c tokens_medios,2728.4,2728.4,si
+gsm8k T06 brazo c pct_varios_cierres,8.5,8.5,si
+gsm8k T06 brazo d pct_correctas,68.0,68.0,si
+gsm8k T06 brazo d ic95_correctas_bajo,60.5,60.5,si
+gsm8k T06 brazo d ic95_correctas_alto,75.0,75.0,si
+gsm8k T06 brazo d pct_al_limite,4.25,4.25,si
+gsm8k T06 brazo d tokens_medios,3491.2,3491.2,si
+gsm8k T06 brazo d pct_varios_cierres,13.0,13.0,si
+gsm8k T06 brazo e pct_correctas,67.5,67.5,si
+gsm8k T06 brazo e ic95_correctas_bajo,60.0,60.0,si
+gsm8k T06 brazo e ic95_correctas_alto,74.75,74.75,si
+gsm8k T06 brazo e pct_al_limite,1.25,1.25,si
+gsm8k T06 brazo e tokens_medios,2367.3,2367.3,si
+gsm8k T06 brazo e pct_varios_cierres,3.5,3.5,si
+gsm8k T06 brazo f pct_correctas,66.75,66.75,si
+gsm8k T06 brazo f ic95_correctas_bajo,58.75,58.75,si
+gsm8k T06 brazo f ic95_correctas_alto,74.25,74.25,si
+gsm8k T06 brazo f pct_al_limite,1.75,1.75,si
+gsm8k T06 brazo f tokens_medios,2513.9,2513.9,si
+gsm8k T06 brazo f pct_varios_cierres,10.5,10.5,si
+gsm8k T06 brazo N pct_correctas,55.5,55.5,si
+gsm8k T06 brazo N ic95_correctas_bajo,48.0,48.0,si
+gsm8k T06 brazo N ic95_correctas_alto,63.0,63.0,si
+gsm8k T06 brazo N pct_al_limite,1.25,1.25,si
+gsm8k T06 brazo N tokens_medios,1925.9,1925.9,si
+gsm8k T06 brazo N pct_varios_cierres,0.0,0.0,si
+gsm8k T06 brazo T pct_correctas,11.75,11.75,si
+gsm8k T06 brazo T ic95_correctas_bajo,7.75,7.75,si
+gsm8k T06 brazo T ic95_correctas_alto,16.25,16.25,si
+gsm8k T06 brazo T pct_al_limite,87.75,87.75,si
+gsm8k T06 brazo T tokens_medios,29303.5,29303.5,si
+gsm8k T06 brazo T pct_varios_cierres,0.0,0.0,si
+ifeval T06 brazo a pct_correctas,49.0,49.0,si
+ifeval T06 brazo a ic95_correctas_bajo,41.75,41.75,si
+ifeval T06 brazo a ic95_correctas_alto,56.25,56.25,si
+ifeval T06 brazo a pct_al_limite,6.25,6.25,si
+ifeval T06 brazo a tokens_medios,2745.0,2745.0,si
+ifeval T06 brazo a pct_varios_cierres,1.0,1.0,si
+ifeval T06 brazo b pct_correctas,45.25,45.25,si
+ifeval T06 brazo b ic95_correctas_bajo,38.0,38.0,si
+ifeval T06 brazo b ic95_correctas_alto,52.75,52.75,si
+ifeval T06 brazo b pct_al_limite,8.25,8.25,si
+ifeval T06 brazo b tokens_medios,3467.7,3467.7,si
+ifeval T06 brazo b pct_varios_cierres,0.25,0.25,si
+ifeval T06 brazo c pct_correctas,48.25,48.25,si
+ifeval T06 brazo c ic95_correctas_bajo,40.75,40.75,si
+ifeval T06 brazo c ic95_correctas_alto,55.5,55.5,si
+ifeval T06 brazo c pct_al_limite,7.75,7.75,si
+ifeval T06 brazo c tokens_medios,3416.1,3416.1,si
+ifeval T06 brazo c pct_varios_cierres,0.5,0.5,si
+ifeval T06 brazo d pct_correctas,45.5,45.5,si
+ifeval T06 brazo d ic95_correctas_bajo,38.25,38.25,si
+ifeval T06 brazo d ic95_correctas_alto,53.0,53.0,si
+ifeval T06 brazo d pct_al_limite,11.0,11.0,si
+ifeval T06 brazo d tokens_medios,4388.6,4388.6,si
+ifeval T06 brazo d pct_varios_cierres,0.25,0.25,si
+ifeval T06 brazo e pct_correctas,51.75,51.75,si
+ifeval T06 brazo e ic95_correctas_bajo,44.25,44.25,si
+ifeval T06 brazo e ic95_correctas_alto,59.25,59.25,si
+ifeval T06 brazo e pct_al_limite,4.0,4.0,si
+ifeval T06 brazo e tokens_medios,2191.4,2191.4,si
+ifeval T06 brazo e pct_varios_cierres,0.0,0.0,si
+ifeval T06 brazo f pct_correctas,50.0,50.0,si
+ifeval T06 brazo f ic95_correctas_bajo,42.25,42.25,si
+ifeval T06 brazo f ic95_correctas_alto,57.75,57.75,si
+ifeval T06 brazo f pct_al_limite,3.0,3.0,si
+ifeval T06 brazo f tokens_medios,1783.0,1783.0,si
+ifeval T06 brazo f pct_varios_cierres,0.25,0.25,si
+ifeval T06 brazo N pct_correctas,50.0,50.0,si
+ifeval T06 brazo N ic95_correctas_bajo,41.75,41.75,si
+ifeval T06 brazo N ic95_correctas_alto,58.0,58.0,si
+ifeval T06 brazo N pct_al_limite,0.0,0.0,si
+ifeval T06 brazo N tokens_medios,260.8,260.8,si
+ifeval T06 brazo N pct_varios_cierres,0.0,0.0,si
+ifeval T06 brazo T pct_correctas,18.75,18.75,si
+ifeval T06 brazo T ic95_correctas_bajo,13.5,13.5,si
+ifeval T06 brazo T ic95_correctas_alto,24.25,24.25,si
+ifeval T06 brazo T pct_al_limite,72.75,72.75,si
+ifeval T06 brazo T tokens_medios,24886.2,24886.2,si
+ifeval T06 brazo T pct_varios_cierres,0.25,0.25,si

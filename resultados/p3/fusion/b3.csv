@@ -1,0 +1,13 @@
+tensor,dw_w_antes,dw_w_despues,pct_pesos_cambiados,fraccion_parche_conservada
+model.language_model.layers.10.mlp.down_proj.weight,0.0206149,0.0206785,91.33,1.0
+model.language_model.layers.10.mlp.gate_proj.weight,0.0268843,0.0269278,93.4,1.0
+model.language_model.layers.10.mlp.up_proj.weight,0.0347612,0.0347914,94.68,1.0
+model.language_model.layers.14.mlp.down_proj.weight,0.0220221,0.0220819,91.99,1.0
+model.language_model.layers.14.mlp.gate_proj.weight,0.0231746,0.023229,92.88,1.0
+model.language_model.layers.14.mlp.up_proj.weight,0.0366358,0.0366639,95.06,1.0
+model.language_model.layers.15.mlp.down_proj.weight,0.0213374,0.0213969,91.65,0.9999
+model.language_model.layers.15.mlp.gate_proj.weight,0.0237398,0.0237929,92.67,1.0
+model.language_model.layers.15.mlp.up_proj.weight,0.0365189,0.0365496,95.03,1.0
+model.language_model.layers.22.mlp.down_proj.weight,0.0226714,0.0227261,91.73,1.0
+model.language_model.layers.22.mlp.gate_proj.weight,0.0206555,0.0207181,91.06,0.9999
+model.language_model.layers.22.mlp.up_proj.weight,0.0364245,0.0364531,94.89,0.9999

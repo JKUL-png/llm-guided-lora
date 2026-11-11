@@ -1,0 +1,9 @@
+tarea,brazo,nombre,n,pct_correctas,ic95_correctas_bajo,ic95_correctas_alto,pct_al_limite,ic95_al_limite_bajo,ic95_al_limite_alto,tokens_medios,pct_varios_cierres,pct_por_semilla
+ifeval,a,(a) 24 capas,400,49.0,41.75,56.25,6.25,3.5,9.5,2745.0,1.0,43 / 51 / 47 / 55
+ifeval,b,(b) Opus informado,400,45.25,38.0,52.75,8.25,5.25,11.75,3467.7,0.25,45 / 42 / 48 / 46
+ifeval,c,(c) placebo,400,48.25,40.75,55.5,7.75,5.0,11.0,3416.1,0.5,46 / 51 / 48 / 48
+ifeval,d,(d) gradiente,400,45.5,38.25,53.0,11.0,7.5,14.75,4388.6,0.25,48 / 52 / 41 / 41
+ifeval,e,(e) barrido,400,51.75,44.25,59.25,4.0,2.25,5.75,2191.4,0.0,46 / 54 / 53 / 54
+ifeval,f,(f) Opus+barrido,400,50.0,42.25,57.75,3.0,1.5,4.75,1783.0,0.25,52 / 53 / 48 / 47
+ifeval,N,original sin thinking,400,50.0,41.75,58.0,0.0,0.0,0.0,260.8,0.0,42 / 53 / 54 / 51
+ifeval,T,original con thinking,400,18.75,13.5,24.25,72.75,66.5,78.75,24886.2,0.25,21 / 24 / 16 / 14

@@ -1,0 +1,4 @@
+Corre estas dos órdenes, cada una sola, exactamente como están, sin cd antes y sin nada después:
+python herramientas/consultar.py ayuda
+python herramientas/consultar.py saldo
+Después dime en una línea qué devolvió la segunda.

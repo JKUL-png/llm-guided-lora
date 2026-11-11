@@ -1,0 +1,10 @@
+{
+ "respuestas_vistas": 1200,
+ "ejemplos": 388,
+ "forzadas": 303,
+ "naturales": 85,
+ "descartadas_por_largo": 6,
+ "descartadas_sin_marca": 0,
+ "max_tokens": 22000,
+ "tokens_totales": 3269949
+}

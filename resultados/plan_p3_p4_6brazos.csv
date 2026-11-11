@@ -1,0 +1,8 @@
+fase,gpu_horas_lo,gpu_horas_hi,origen
+Barrido (una vez),1.5,4.0,supuesto: 296 fragmentos x 49 condiciones; falta prueba de tiempo
+P3: entrenar 24 LoRA (6 brazos x 4 semillas),8.3,11.9,25.8 min medidos en P1b; -20%/+15% por capas y fusion
+"P4: evaluar MATH, 48 celdas (24 modelos x 2 temperaturas)",31.0,42.9,"0.65-0.89 h por celda, medido en paper 1"
+P4b: apagar el thinking en MATH a 1.0,0.8,1.6,sin cambio: no depende de los brazos
+TOTAL nuevo (barrido + P3 + P4 + P4b),41.6,60.4,suma
+"Antes (4 brazos, 16 LoRA, 32 celdas): P3+P4+P4b",26.6,42.1,PLAN.md
+Diferencia,15.0,18.3,resta

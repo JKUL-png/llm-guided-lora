@@ -1,0 +1,25 @@
+tarea,modelo,nombre,n_original_think_al_limite,pct_correctas_modelo_donde_original_al_limite,pct_correctas_original_ahi,n_original_think_terminaba,pct_correctas_modelo_donde_original_terminaba,pct_correctas_original_donde_terminaba
+math,a,(a) 24 capas,369,41.19,0.0,31,96.77,100.0
+math,b,(b) Opus informado,369,50.68,0.0,31,93.55,100.0
+math,c,(c) placebo,369,52.03,0.0,31,96.77,100.0
+math,d,(d) gradiente,369,47.7,0.0,31,93.55,100.0
+math,e,(e) barrido,369,55.01,0.0,31,100.0,100.0
+math,f,(f) Opus+barrido,369,48.24,0.0,31,96.77,100.0
+math,N,original sin thinking,369,48.78,0.0,31,87.1,100.0
+math,P,p50c MIT con thinking,369,47.15,0.0,31,100.0,100.0
+gsm8k,a,(a) 24 capas,351,61.54,0.0,49,93.88,95.92
+gsm8k,b,(b) Opus informado,351,65.24,0.0,49,89.8,95.92
+gsm8k,c,(c) placebo,351,63.82,0.0,49,93.88,95.92
+gsm8k,d,(d) gradiente,351,64.67,0.0,49,91.84,95.92
+gsm8k,e,(e) barrido,351,63.82,0.0,49,93.88,95.92
+gsm8k,f,(f) Opus+barrido,351,63.25,0.0,49,91.84,95.92
+gsm8k,N,original sin thinking,351,51.28,0.0,49,85.71,95.92
+gsm8k,P,p50c MIT con thinking,351,63.82,0.0,49,93.88,95.92
+ifeval,a,(a) 24 capas,291,44.67,0.34,109,60.55,67.89
+ifeval,b,(b) Opus informado,291,44.67,0.34,109,46.79,67.89
+ifeval,c,(c) placebo,291,43.64,0.34,109,60.55,67.89
+ifeval,d,(d) gradiente,291,42.61,0.34,109,53.21,67.89
+ifeval,e,(e) barrido,291,50.86,0.34,109,54.13,67.89
+ifeval,f,(f) Opus+barrido,291,47.42,0.34,109,56.88,67.89
+ifeval,N,original sin thinking,291,47.42,0.34,109,56.88,67.89
+ifeval,P,p50c MIT con thinking,291,54.64,0.34,109,66.06,67.89

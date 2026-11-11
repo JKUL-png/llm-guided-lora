@@ -1,0 +1,31 @@
+tarea,familia,estado,metrica,comparacion,pct_X,pct_Y,dif_puntos,ic95_bajo,ic95_alto,solo_X,solo_Y,p_mcnemar,p_holm,tamano_familia,sobrevive_holm_0.05
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(a) 24 capas - original sin thinking,49.0,50.0,-1.0,-8.0,6.0,58,62,0.784328,1.0,6,no
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(b) Opus informado - original sin thinking,45.25,50.0,-4.75,-11.5,2.0,51,70,0.101368,0.608208,6,no
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(c) placebo - original sin thinking,48.25,50.0,-1.75,-9.0,5.5,61,68,0.597485,1.0,6,no
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(d) gradiente - original sin thinking,45.5,50.0,-4.5,-11.0,2.0,53,71,0.12651,0.63255,6,no
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(e) barrido - original sin thinking,51.75,50.0,1.75,-5.5,9.0,67,60,0.594615,1.0,6,no
+ifeval,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(f) Opus+barrido - original sin thinking,50.0,50.0,0.0,-6.5,6.75,57,57,1.0,1.0,6,no
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(a) 24 capas - original sin thinking,6.25,0.0,6.25,3.5,9.5,25,0,0.0,0,6,si
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(b) Opus informado - original sin thinking,8.25,0.0,8.25,5.25,11.75,33,0,0.0,0,6,si
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(c) placebo - original sin thinking,7.75,0.0,7.75,5.0,11.0,31,0,0.0,0,6,si
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(d) gradiente - original sin thinking,11.0,0.0,11.0,7.5,14.75,44,0,0.0,0,6,si
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(e) barrido - original sin thinking,4.0,0.0,4.0,2.25,5.75,16,0,3.1e-05,6.2e-05,6,si
+ifeval,vs_sin_thinking,EXPLORATORIO,al_limite,(f) Opus+barrido - original sin thinking,3.0,0.0,3.0,1.5,4.75,12,0,0.000488,0.000488,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(a) 24 capas - original con thinking,49.0,18.75,30.25,23.5,37.25,138,17,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(b) Opus informado - original con thinking,45.25,18.75,26.5,19.0,33.75,133,27,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(c) placebo - original con thinking,48.25,18.75,29.5,23.0,36.0,131,13,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(d) gradiente - original con thinking,45.5,18.75,26.75,19.5,33.75,127,20,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(e) barrido - original con thinking,51.75,18.75,33.0,25.5,40.25,152,20,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,correctas,(f) Opus+barrido - original con thinking,50.0,18.75,31.25,24.0,38.25,146,21,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(a) 24 capas - original con thinking,6.25,72.75,-66.5,-72.5,-60.0,3,269,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(b) Opus informado - original con thinking,8.25,72.75,-64.5,-71.0,-57.75,7,265,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(c) placebo - original con thinking,7.75,72.75,-65.0,-71.0,-59.0,1,261,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(d) gradiente - original con thinking,11.0,72.75,-61.75,-68.25,-54.75,7,254,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(e) barrido - original con thinking,4.0,72.75,-68.75,-74.75,-62.5,2,277,0.0,0,6,si
+ifeval,vs_con_thinking,EXPLORATORIO,al_limite,(f) Opus+barrido - original con thinking,3.0,72.75,-69.75,-75.5,-63.75,1,280,0.0,0,6,si
+ifeval,secundaria_b_vs_a,FIJADA_EN_PLAN,correctas,(b) Opus informado - (a) 24 capas,45.25,49.0,-3.75,-9.0,1.5,47,62,0.179671,0.179671,1,no
+ifeval,secundaria_b_vs_a,EXPLORATORIO,al_limite,(b) Opus informado - (a) 24 capas,8.25,6.25,2.0,-0.75,4.75,25,17,0.279956,0.279956,1,no
+ifeval,exploratoria_b_vs_c_d,EXPLORATORIO,correctas,(b) Opus informado - (c) placebo,45.25,48.25,-3.0,-8.0,1.75,48,60,0.289798,0.579596,2,no
+ifeval,exploratoria_b_vs_c_d,EXPLORATORIO,correctas,(b) Opus informado - (d) gradiente,45.25,45.5,-0.25,-5.5,4.75,57,58,1.0,1.0,2,no
+ifeval,exploratoria_b_vs_c_d,EXPLORATORIO,al_limite,(b) Opus informado - (c) placebo,8.25,7.75,0.5,-3.0,4.0,25,23,0.885433,0.885433,2,no
+ifeval,exploratoria_b_vs_c_d,EXPLORATORIO,al_limite,(b) Opus informado - (d) gradiente,8.25,11.0,-2.75,-6.75,1.25,24,35,0.192526,0.385052,2,no

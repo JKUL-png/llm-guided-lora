@@ -1,0 +1,8 @@
+capas_k,rango,parametros_lora,igual_a_24_capas_rango8
+24,8,2654208,True
+12,16,2654208,True
+8,24,2654208,True
+6,32,2654208,True
+4,48,2654208,True
+3,64,2654208,True
+2,96,2654208,True

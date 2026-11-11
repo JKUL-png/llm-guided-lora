@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.jsonl
+!datos/*.jsonl
+modelos/
+.venv/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+.env
+.env.*
+*.pem
+*.key

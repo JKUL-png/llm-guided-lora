@@ -1,0 +1,2095 @@
+[
+{
+"frag": 0,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "principal",
+"k": 8972
+},
+{
+"frag": 1,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 8974
+},
+{
+"frag": 2,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 12932
+},
+{
+"frag": 3,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 16892
+},
+{
+"frag": 4,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 20860
+},
+{
+"frag": 5,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 24818
+},
+{
+"frag": 6,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 28778
+},
+{
+"frag": 7,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 32736
+},
+{
+"frag": 8,
+"problema": 2,
+"id": "train/algebra/1492",
+"tipo": "cierre_natural",
+"k": 1959
+},
+{
+"frag": 9,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "principal",
+"k": 8014
+},
+{
+"frag": 10,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 8030
+},
+{
+"frag": 11,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 12139
+},
+{
+"frag": 12,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 16264
+},
+{
+"frag": 13,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 20386
+},
+{
+"frag": 14,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 24498
+},
+{
+"frag": 15,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 28607
+},
+{
+"frag": 16,
+"problema": 3,
+"id": "train/prealgebra/1055",
+"tipo": "bucle",
+"k": 32732
+},
+{
+"frag": 17,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "principal",
+"k": 5364
+},
+{
+"frag": 18,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 5374
+},
+{
+"frag": 19,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 9937
+},
+{
+"frag": 20,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 14487
+},
+{
+"frag": 21,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 19050
+},
+{
+"frag": 22,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 23613
+},
+{
+"frag": 23,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 28163
+},
+{
+"frag": 24,
+"problema": 4,
+"id": "train/counting_and_probability/35",
+"tipo": "bucle",
+"k": 32726
+},
+{
+"frag": 25,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "principal",
+"k": 8485
+},
+{
+"frag": 26,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 8487
+},
+{
+"frag": 27,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 12529
+},
+{
+"frag": 28,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 16571
+},
+{
+"frag": 29,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 20613
+},
+{
+"frag": 30,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 24637
+},
+{
+"frag": 31,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 28679
+},
+{
+"frag": 32,
+"problema": 5,
+"id": "train/algebra/138",
+"tipo": "bucle",
+"k": 32721
+},
+{
+"frag": 33,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "principal",
+"k": 7284
+},
+{
+"frag": 34,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 7302
+},
+{
+"frag": 35,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 11548
+},
+{
+"frag": 36,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 15772
+},
+{
+"frag": 37,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 20018
+},
+{
+"frag": 38,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 24264
+},
+{
+"frag": 39,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 28488
+},
+{
+"frag": 40,
+"problema": 6,
+"id": "train/intermediate_algebra/70",
+"tipo": "bucle",
+"k": 32734
+},
+{
+"frag": 41,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "principal",
+"k": 4592
+},
+{
+"frag": 42,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 4618
+},
+{
+"frag": 43,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 9294
+},
+{
+"frag": 44,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 13978
+},
+{
+"frag": 45,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 18682
+},
+{
+"frag": 46,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 23358
+},
+{
+"frag": 47,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 28042
+},
+{
+"frag": 48,
+"problema": 7,
+"id": "train/counting_and_probability/44",
+"tipo": "bucle",
+"k": 32718
+},
+{
+"frag": 49,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "principal",
+"k": 8048
+},
+{
+"frag": 50,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 8059
+},
+{
+"frag": 51,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 12171
+},
+{
+"frag": 52,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 16283
+},
+{
+"frag": 53,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 20395
+},
+{
+"frag": 54,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 24507
+},
+{
+"frag": 55,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 28619
+},
+{
+"frag": 56,
+"problema": 8,
+"id": "train/number_theory/815",
+"tipo": "bucle",
+"k": 32731
+},
+{
+"frag": 57,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "principal",
+"k": 7500
+},
+{
+"frag": 58,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 7513
+},
+{
+"frag": 59,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 11709
+},
+{
+"frag": 60,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 15923
+},
+{
+"frag": 61,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 20117
+},
+{
+"frag": 62,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 24321
+},
+{
+"frag": 63,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 28535
+},
+{
+"frag": 64,
+"problema": 9,
+"id": "train/geometry/134",
+"tipo": "bucle",
+"k": 32716
+},
+{
+"frag": 65,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "principal",
+"k": 4092
+},
+{
+"frag": 66,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 4095
+},
+{
+"frag": 67,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 8868
+},
+{
+"frag": 68,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 13641
+},
+{
+"frag": 69,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 18414
+},
+{
+"frag": 70,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 23187
+},
+{
+"frag": 71,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 27960
+},
+{
+"frag": 72,
+"problema": 10,
+"id": "train/algebra/875",
+"tipo": "bucle",
+"k": 32733
+},
+{
+"frag": 73,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "principal",
+"k": 3921
+},
+{
+"frag": 74,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 3934
+},
+{
+"frag": 75,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 8784
+},
+{
+"frag": 76,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 13578
+},
+{
+"frag": 77,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 18375
+},
+{
+"frag": 78,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 23156
+},
+{
+"frag": 79,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 27936
+},
+{
+"frag": 80,
+"problema": 11,
+"id": "train/prealgebra/1122",
+"tipo": "bucle",
+"k": 32730
+},
+{
+"frag": 81,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "principal",
+"k": 2064
+},
+{
+"frag": 82,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 2078
+},
+{
+"frag": 83,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 7193
+},
+{
+"frag": 84,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 12277
+},
+{
+"frag": 85,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 17392
+},
+{
+"frag": 86,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 22507
+},
+{
+"frag": 87,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 27591
+},
+{
+"frag": 88,
+"problema": 12,
+"id": "train/prealgebra/309",
+"tipo": "bucle",
+"k": 32706
+},
+{
+"frag": 89,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "principal",
+"k": 8652
+},
+{
+"frag": 90,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 8661
+},
+{
+"frag": 91,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 12684
+},
+{
+"frag": 92,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 16681
+},
+{
+"frag": 93,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 20693
+},
+{
+"frag": 94,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 24716
+},
+{
+"frag": 95,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 28713
+},
+{
+"frag": 96,
+"problema": 13,
+"id": "train/intermediate_algebra/1281",
+"tipo": "bucle",
+"k": 32725
+},
+{
+"frag": 97,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "principal",
+"k": 11658
+},
+{
+"frag": 98,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 11663
+},
+{
+"frag": 99,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 15180
+},
+{
+"frag": 100,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 18698
+},
+{
+"frag": 101,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 22200
+},
+{
+"frag": 102,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 25711
+},
+{
+"frag": 103,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 29219
+},
+{
+"frag": 104,
+"problema": 14,
+"id": "train/algebra/1549",
+"tipo": "bucle",
+"k": 32729
+},
+{
+"frag": 105,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "principal",
+"k": 6640
+},
+{
+"frag": 106,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 6652
+},
+{
+"frag": 107,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 10996
+},
+{
+"frag": 108,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 15352
+},
+{
+"frag": 109,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 19687
+},
+{
+"frag": 110,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 24031
+},
+{
+"frag": 111,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 28387
+},
+{
+"frag": 112,
+"problema": 15,
+"id": "train/number_theory/348",
+"tipo": "bucle",
+"k": 32722
+},
+{
+"frag": 113,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "principal",
+"k": 7308
+},
+{
+"frag": 114,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 7310
+},
+{
+"frag": 115,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 11540
+},
+{
+"frag": 116,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 15787
+},
+{
+"frag": 117,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 20020
+},
+{
+"frag": 118,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 24250
+},
+{
+"frag": 119,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 28497
+},
+{
+"frag": 120,
+"problema": 16,
+"id": "train/geometry/869",
+"tipo": "bucle",
+"k": 32730
+},
+{
+"frag": 121,
+"problema": 17,
+"id": "train/algebra/390",
+"tipo": "cierre_natural",
+"k": 4381
+},
+{
+"frag": 122,
+"problema": 18,
+"id": "train/algebra/918",
+"tipo": "cierre_natural",
+"k": 5274
+},
+{
+"frag": 123,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "principal",
+"k": 9376
+},
+{
+"frag": 124,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 9382
+},
+{
+"frag": 125,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 13276
+},
+{
+"frag": 126,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 17170
+},
+{
+"frag": 127,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 21042
+},
+{
+"frag": 128,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 24936
+},
+{
+"frag": 129,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 28830
+},
+{
+"frag": 130,
+"problema": 19,
+"id": "train/geometry/584",
+"tipo": "bucle",
+"k": 32724
+},
+{
+"frag": 131,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "principal",
+"k": 12394
+},
+{
+"frag": 132,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 12691
+},
+{
+"frag": 133,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 16057
+},
+{
+"frag": 134,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 19423
+},
+{
+"frag": 135,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 22483
+},
+{
+"frag": 136,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 25849
+},
+{
+"frag": 137,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 29215
+},
+{
+"frag": 138,
+"problema": 20,
+"id": "train/prealgebra/433",
+"tipo": "bucle",
+"k": 32581
+},
+{
+"frag": 139,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "principal",
+"k": 2774
+},
+{
+"frag": 140,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 2795
+},
+{
+"frag": 141,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 7790
+},
+{
+"frag": 142,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 12758
+},
+{
+"frag": 143,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 17753
+},
+{
+"frag": 144,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 22748
+},
+{
+"frag": 145,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 27716
+},
+{
+"frag": 146,
+"problema": 21,
+"id": "train/intermediate_algebra/130",
+"tipo": "bucle",
+"k": 32711
+},
+{
+"frag": 147,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "principal",
+"k": 2684
+},
+{
+"frag": 148,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 2696
+},
+{
+"frag": 149,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 7707
+},
+{
+"frag": 150,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 12738
+},
+{
+"frag": 151,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 17698
+},
+{
+"frag": 152,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 22729
+},
+{
+"frag": 153,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 27722
+},
+{
+"frag": 154,
+"problema": 22,
+"id": "train/algebra/978",
+"tipo": "bucle",
+"k": 32733
+},
+{
+"frag": 155,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "principal",
+"k": 7989
+},
+{
+"frag": 156,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 8006
+},
+{
+"frag": 157,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 12124
+},
+{
+"frag": 158,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 16241
+},
+{
+"frag": 159,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 20381
+},
+{
+"frag": 160,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 24499
+},
+{
+"frag": 161,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 28617
+},
+{
+"frag": 162,
+"problema": 23,
+"id": "train/counting_and_probability/54",
+"tipo": "bucle",
+"k": 32734
+},
+{
+"frag": 163,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "principal",
+"k": 4080
+},
+{
+"frag": 164,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 4083
+},
+{
+"frag": 165,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 8866
+},
+{
+"frag": 166,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 13626
+},
+{
+"frag": 167,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 18393
+},
+{
+"frag": 168,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 23178
+},
+{
+"frag": 169,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 27956
+},
+{
+"frag": 170,
+"problema": 24,
+"id": "train/geometry/394",
+"tipo": "bucle",
+"k": 32727
+},
+{
+"frag": 171,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "principal",
+"k": 5128
+},
+{
+"frag": 172,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 5138
+},
+{
+"frag": 173,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 9746
+},
+{
+"frag": 174,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 14336
+},
+{
+"frag": 175,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 18926
+},
+{
+"frag": 176,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 23534
+},
+{
+"frag": 177,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 28142
+},
+{
+"frag": 178,
+"problema": 25,
+"id": "train/intermediate_algebra/93",
+"tipo": "bucle",
+"k": 32732
+},
+{
+"frag": 179,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "principal",
+"k": 6080
+},
+{
+"frag": 180,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 6086
+},
+{
+"frag": 181,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 10544
+},
+{
+"frag": 182,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 14972
+},
+{
+"frag": 183,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 19406
+},
+{
+"frag": 184,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 23864
+},
+{
+"frag": 185,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 28292
+},
+{
+"frag": 186,
+"problema": 26,
+"id": "train/number_theory/103",
+"tipo": "bucle",
+"k": 32726
+},
+{
+"frag": 187,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "principal",
+"k": 4240
+},
+{
+"frag": 188,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 4248
+},
+{
+"frag": 189,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 8989
+},
+{
+"frag": 190,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 13736
+},
+{
+"frag": 191,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 18491
+},
+{
+"frag": 192,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 23232
+},
+{
+"frag": 193,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 27979
+},
+{
+"frag": 194,
+"problema": 27,
+"id": "train/intermediate_algebra/176",
+"tipo": "bucle",
+"k": 32720
+},
+{
+"frag": 195,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "principal",
+"k": 13382
+},
+{
+"frag": 196,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 13400
+},
+{
+"frag": 197,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 16624
+},
+{
+"frag": 198,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 19848
+},
+{
+"frag": 199,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 23072
+},
+{
+"frag": 200,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 26270
+},
+{
+"frag": 201,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 29494
+},
+{
+"frag": 202,
+"problema": 28,
+"id": "train/prealgebra/654",
+"tipo": "bucle",
+"k": 32718
+},
+{
+"frag": 203,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "principal",
+"k": 3176
+},
+{
+"frag": 204,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 3200
+},
+{
+"frag": 205,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 8120
+},
+{
+"frag": 206,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 13040
+},
+{
+"frag": 207,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 17960
+},
+{
+"frag": 208,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 22880
+},
+{
+"frag": 209,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 27800
+},
+{
+"frag": 210,
+"problema": 29,
+"id": "train/geometry/631",
+"tipo": "bucle",
+"k": 32720
+},
+{
+"frag": 211,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "principal",
+"k": 3888
+},
+{
+"frag": 212,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 3894
+},
+{
+"frag": 213,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 8694
+},
+{
+"frag": 214,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 13511
+},
+{
+"frag": 215,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 18311
+},
+{
+"frag": 216,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 23111
+},
+{
+"frag": 217,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 27925
+},
+{
+"frag": 218,
+"problema": 30,
+"id": "train/intermediate_algebra/226",
+"tipo": "bucle",
+"k": 32725
+},
+{
+"frag": 219,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "principal",
+"k": 7059
+},
+{
+"frag": 220,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 7063
+},
+{
+"frag": 221,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 11341
+},
+{
+"frag": 222,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 15619
+},
+{
+"frag": 223,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 19897
+},
+{
+"frag": 224,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 24175
+},
+{
+"frag": 225,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 28453
+},
+{
+"frag": 226,
+"problema": 31,
+"id": "train/intermediate_algebra/284",
+"tipo": "bucle",
+"k": 32731
+},
+{
+"frag": 227,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "principal",
+"k": 5781
+},
+{
+"frag": 228,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 5810
+},
+{
+"frag": 229,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 10298
+},
+{
+"frag": 230,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 14786
+},
+{
+"frag": 231,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 19274
+},
+{
+"frag": 232,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 23729
+},
+{
+"frag": 233,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 28217
+},
+{
+"frag": 234,
+"problema": 32,
+"id": "train/intermediate_algebra/24",
+"tipo": "bucle",
+"k": 32705
+},
+{
+"frag": 235,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "principal",
+"k": 2878
+},
+{
+"frag": 236,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 2879
+},
+{
+"frag": 237,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 7849
+},
+{
+"frag": 238,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 12833
+},
+{
+"frag": 239,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 17803
+},
+{
+"frag": 240,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 22773
+},
+{
+"frag": 241,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 27757
+},
+{
+"frag": 242,
+"problema": 33,
+"id": "train/algebra/856",
+"tipo": "bucle",
+"k": 32730
+},
+{
+"frag": 243,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "principal",
+"k": 3760
+},
+{
+"frag": 244,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 3806
+},
+{
+"frag": 245,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 8606
+},
+{
+"frag": 246,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 13454
+},
+{
+"frag": 247,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 18254
+},
+{
+"frag": 248,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 23054
+},
+{
+"frag": 249,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 27902
+},
+{
+"frag": 250,
+"problema": 34,
+"id": "train/intermediate_algebra/168",
+"tipo": "bucle",
+"k": 32702
+},
+{
+"frag": 251,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "principal",
+"k": 8014
+},
+{
+"frag": 252,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 8036
+},
+{
+"frag": 253,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 12153
+},
+{
+"frag": 254,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 16270
+},
+{
+"frag": 255,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 20364
+},
+{
+"frag": 256,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 24481
+},
+{
+"frag": 257,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 28598
+},
+{
+"frag": 258,
+"problema": 35,
+"id": "train/intermediate_algebra/84",
+"tipo": "bucle",
+"k": 32715
+},
+{
+"frag": 259,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "principal",
+"k": 10904
+},
+{
+"frag": 260,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 10921
+},
+{
+"frag": 261,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 14551
+},
+{
+"frag": 262,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 18181
+},
+{
+"frag": 263,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 21841
+},
+{
+"frag": 264,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 25471
+},
+{
+"frag": 265,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 29101
+},
+{
+"frag": 266,
+"problema": 36,
+"id": "train/intermediate_algebra/42",
+"tipo": "bucle",
+"k": 32731
+},
+{
+"frag": 267,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "principal",
+"k": 6163
+},
+{
+"frag": 268,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 6168
+},
+{
+"frag": 269,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 10590
+},
+{
+"frag": 270,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 15027
+},
+{
+"frag": 271,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 19450
+},
+{
+"frag": 272,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 23872
+},
+{
+"frag": 273,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 28309
+},
+{
+"frag": 274,
+"problema": 37,
+"id": "train/number_theory/232",
+"tipo": "bucle",
+"k": 32732
+},
+{
+"frag": 275,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "principal",
+"k": 3880
+},
+{
+"frag": 276,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 3886
+},
+{
+"frag": 277,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 8702
+},
+{
+"frag": 278,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 13485
+},
+{
+"frag": 279,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 18301
+},
+{
+"frag": 280,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 23117
+},
+{
+"frag": 281,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 27910
+},
+{
+"frag": 282,
+"problema": 38,
+"id": "train/precalculus/305",
+"tipo": "bucle",
+"k": 32726
+},
+{
+"frag": 283,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "principal",
+"k": 2388
+},
+{
+"frag": 284,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 2403
+},
+{
+"frag": 285,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 7461
+},
+{
+"frag": 286,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 12519
+},
+{
+"frag": 287,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 17559
+},
+{
+"frag": 288,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 22617
+},
+{
+"frag": 289,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 27675
+},
+{
+"frag": 290,
+"problema": 39,
+"id": "train/counting_and_probability/743",
+"tipo": "bucle",
+"k": 32733
+},
+{
+"frag": 291,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "principal",
+"k": 8803
+},
+{
+"frag": 292,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 8805
+},
+{
+"frag": 293,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 12805
+},
+{
+"frag": 294,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 16780
+},
+{
+"frag": 295,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 20755
+},
+{
+"frag": 296,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 24755
+},
+{
+"frag": 297,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 28755
+},
+{
+"frag": 298,
+"problema": 40,
+"id": "train/intermediate_algebra/527",
+"tipo": "bucle",
+"k": 32730
+}
+]

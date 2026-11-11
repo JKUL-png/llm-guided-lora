@@ -1,0 +1,8 @@
+estado,brazo,problemas_mixtos,dif_media_un_cierre_menos_varios,ic95_bajo,ic95_alto,gana_un_cierre,gana_varios,empates
+EXPLORATORIO,a,43,-0.047,-0.155,0.066,5,9,29
+EXPLORATORIO,b,55,0.145,0.012,0.285,20,12,23
+EXPLORATORIO,c,48,-0.024,-0.142,0.09,9,11,28
+EXPLORATORIO,d,61,0.052,-0.052,0.159,16,15,30
+EXPLORATORIO,e,48,0.045,-0.09,0.184,13,12,23
+EXPLORATORIO,f,47,-0.014,-0.117,0.092,8,12,27
+EXPLORATORIO,todos,302,0.031,-0.017,0.082,71,71,160

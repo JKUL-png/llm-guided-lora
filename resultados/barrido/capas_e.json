@@ -1,0 +1,15 @@
+{
+ "capas": [
+  0,
+  10,
+  12,
+  15
+ ],
+ "regla": "4 capas de mayor |cambio medio| en log P(</think>), MLP en cero",
+ "valores": {
+  "0": 2.3703,
+  "10": 3.439,
+  "12": 1.906,
+  "15": 4.2742
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "regla": "random.Random(20261106 + semilla).sample(range(24), 4)",
+ "fijado": "2026-11-06, antes de cualquier diagnostico",
+ "capas": {
+  "0": [
+   1,
+   2,
+   4,
+   20
+  ],
+  "1": [
+   12,
+   14,
+   18,
+   21
+  ],
+  "2": [
+   7,
+   9,
+   10,
+   14
+  ],
+  "3": [
+   1,
+   5,
+   9,
+   15
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does It Help When an LLM Chooses Where to Train?</title>
+<meta name="description" content="Claude Opus diagnosed a small model's reasoning loops and chose where to train a LoRA adapter. Did it beat random layers or a cheap rule?">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="masthead">
+  <p class="kicker">Audit notebook · Part 2{{DRAFT}}</p>
+  <h1>Does It Help When an LLM Chooses Where to Train?</h1>
+  <p class="deck">A frontier model diagnosed why a small model gets stuck in loops, then chose which layers to train to fix it. We trained the same fix in random layers and in layers picked by a cheap rule, and compared.</p>
+  <p class="byline"><strong>JKUL</strong> · November 2026<br>
+  Paper by Juan José Giraldo Márquez and Juan José Gómez · <a href="paper.pdf">Read the paper (PDF)</a> · <a href="https://github.com/JKUL-png/llm-guided-lora">Code and data</a></p>
+</header>
+
+<section class="tldr" aria-labelledby="tldr-title">
+  <h2 id="tldr-title">TL;DR</h2>
+  <p>Opus did not beat random layers or a cheap rule. Every adapter fixed the loops, but on MATH none of them beat simply turning thinking off. Exploratory results hint that the place matters. The place seems to matter, but Opus did not find a better one than chance.</p>
+  <dl class="stats">
+    <div><dt>{{R:cmp:math:06:b:c:dif}}</dt><dd>Points, Opus's layers minus random layers. Interval {{R:cmp:math:06:b:c:ci}}.</dd></div>
+    <div><dt>{{R:cmp:math:06:b:d:dif}}</dt><dd>Points, Opus's layers minus a gradient-norm rule. Interval {{R:cmp:math:06:b:d:ci}}.</dd></div>
+    <div><dt>{{R:mod:math:06:T:lim}}% → {{R:rng:mod:math:06:lim:min}}–{{R:rng:mod:math:06:lim:max}}%</dt><dd>Responses that hit the token limit: original model → the {{M:NLora}} adapters.</dd></div>
+    <div><dt>{{R:mod:math:06:N:acc}}%</dt><dd>Turning thinking off, no training. The adapters score {{R:rng:mod:math:06:acc:min}}–{{R:rng:mod:math:06:acc:max}}%, and none beats it.</dd></div>
+  </dl>
+  <p class="note">MATH-500, {{M:NMath}} fixed problems, four seeds per model, temperature {{M:TempMain}}. Differences are in percentage points; intervals are 95% and count the variation between the four adapters of each arm.</p>
+</section>
+
+<section aria-labelledby="q-title">
+  <h2 id="q-title">The question</h2>
+  <p>In <a href="https://github.com/JKUL-png/decomposing-the-gain">part 1</a> we looked at Qwen3.5-0.8B, a small reasoning model that loops: in thinking mode, {{R:mod:math:06:T:lim}}% of its responses use up all {{M:MaxTokensEval}} tokens without answering. A published weight edit fixes much of this, and so does simply turning thinking off.</p>
+  <p>Here we keep the fix fixed and ask about the place. The fix is a LoRA adapter, a small trainable patch, trained on {{M:NExamples}} examples that show the model leaving a loop and answering. The place is which {{M:NLayersFour}} of the model's {{M:NModelLayers}} layers the patch trains. Claude Opus investigated the model with measuring tools and chose four layers. Does a model that diagnoses the problem choose better than chance?</p>
+</section>
+
+<section aria-labelledby="design-title">
+  <h2 id="design-title">The design</h2>
+  <p>Six ways of choosing the layers, four adapters each. Every adapter has exactly {{M:ParamsLora}} trainable parameters (<span class="math">{{M:NLayersFour}} \times {{M:RankFour}} = {{M:NLayersFull}} \times {{M:RankFull}}</span>, layers times rank), the same data, the same steps and the same learning rate. Only the layers change.</p>
+  <figure class="design">
+    {{DESIGN}}
+    <figcaption><strong>Which layers each adapter trains.</strong> One row per adapter (seeds 0–3), one column per layer. Dashed columns: the two layers the published edit changes, which the Opus sessions were told about.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>(b) Opus, informed.</strong> A fresh Claude Opus session per seed, isolated, with tools to probe and switch off layers, a fixed budget, and context about the problem. It never saw an evaluation problem.</li>
+    <li><strong>(c) Random placebo.</strong> Four layers drawn before any diagnosis.</li>
+    <li><strong>(d) Gradient rule.</strong> The four layers with the largest gradient norm, computed once on the untrained model.</li>
+    <li><strong>(e) Sweep rule</strong> and <strong>(f) Opus reading the sweep.</strong> The system switches off each layer in turn and measures how much the model wants to close its thinking. A fixed rule picks the top four; separately, Opus reads the same table and picks four.</li>
+    <li><strong>(a) All {{M:NLayersFull}} layers</strong> at a lower rank, as a reference.</li>
+  </ul>
+  <p>The main test, (b) against (c) and (d), was written down before any evaluation, in a plan kept in a local git repository. We call that pre-specified, because the repository has no external timestamp. Several later analysis choices were made after seeing results, and the paper lists them.</p>
+</section>
+
+<section aria-labelledby="main-title">
+  <h2 id="main-title">Opus did not beat random layers or a cheap rule</h2>
+  <p>On MATH, Opus's layers scored {{R:mod:math:06:b:acc}}%, random layers {{R:mod:math:06:c:acc}}% and the gradient rule {{R:mod:math:06:d:acc}}%. The differences, {{R:cmp:math:06:b:c:dif}} and {{R:cmp:math:06:b:d:dif}} points, are well inside the noise (Holm-corrected p = {{R:holm:main:math:b:c:hs}} for both). The pre-specified criterion for "guided wins" was not met.</p>
+  <figure class="fig">
+    <img src="figures/fig2.svg" alt="Forest plot of differences in correct answers on MATH. The primary comparisons, Opus minus random and Opus minus the gradient rule, both have intervals that cross zero." loading="lazy">
+    <figcaption><strong>Differences on MATH, in points.</strong> Wide light bars: 95% interval over problems and adapters (our main one). Thin bars: over problems only.</figcaption>
+  </figure>
+  <p>A tie is not proof of equality. With four adapters per arm, an Opus advantage of up to {{R:cmp:math:06:b:c:hi}} points over random layers, or {{R:cmp:math:06:b:d:hi}} over the gradient rule, would have gone unnoticed. But nothing points that way: retraining the same {{M:NLayersFull}} layers with another seed already moves the score by {{R:mod:math:06:a:seedspan}} points.</p>
+</section>
+
+<section aria-labelledby="base-title">
+  <h2 id="base-title">Against turning thinking off, and against the published edit</h2>
+  <p>Two cheap references sit in every comparison: the original model with thinking turned off, and <code>p50c</code>, the published weight edit from part 1, with thinking on.</p>
+  <figure class="fig">
+    <img src="figures/fig1.svg" alt="Accuracy per model on MATH, GSM8K and IFEval. All adapters are far above the original model with thinking. On MATH they sit around the no-thinking level; on GSM8K above it; on IFEval around it and below p50c." loading="lazy">
+    <figcaption><strong>Accuracy per model.</strong> Large markers: mean of four seeds with its interval; small dots: the seeds. N: original, thinking off. T: original, thinking on. P: <code>p50c</code>.</figcaption>
+  </figure>
+  <ul>
+    <li><strong>MATH:</strong> no adapter beats turning thinking off ({{R:mod:math:06:N:acc}}%). The closest is the sweep rule, at {{R:cmp:math:06:e:N:dif}} points {{R:cmp:math:06:e:N:ci}}, which does not survive correction. <code>p50c</code> scores about the same as thinking-off ({{R:mod:math:06:P:acc}}%), but still hits the limit {{R:mod:math:06:P:lim}}% of the time.</li>
+    <li><strong>GSM8K:</strong> every adapter beats turning thinking off, by {{R:rng:cmp:gsm8k:06:N:min}} to {{R:rng:cmp:gsm8k:06:N:max}} points. But so does <code>p50c</code>, and the adapters tie with it.</li>
+    <li><strong>IFEval:</strong> no adapter differs from turning thinking off, and all are below <code>p50c</code>, by {{R:rng:cmp:ifeval:06:P:absmin}} to {{R:rng:cmp:ifeval:06:P:absmax}} points. That gap holds up for three of the six arms.</li>
+  </ul>
+  <p>Training {{M:ParamsLora}} parameters gave, on MATH, a result we cannot tell apart from flipping one generation option.</p>
+</section>
+
+<section aria-labelledby="exp-title">
+  <h2 id="exp-title"><span class="tag">Exploratory</span> The place seems to matter</h2>
+  <p>These analyses were chosen after seeing the data. Read them as hints, not findings.</p>
+  <ul>
+    <li><strong>One rule beat another.</strong> The sweep rule scored {{R:cmp:math:06:e:d:dif}} points above the gradient rule {{R:cmp:math:06:e:d:ci}}. Both use the same layers in every seed, and the gap shows up in each one. The sweep rule was also picked as the best arm on these same data, so this number is inflated.</li>
+    <li><strong>Opus reading the sweep did not beat the sweep rule</strong> reading the same table: {{R:cmp:math:06:f:e:dif}} points {{R:cmp:math:06:f:e:ci}}.</li>
+    <li><strong>Clean answers vary a lot.</strong> Some adapters close their thinking, keep reasoning, and close again. Counting responses that close exactly once and stay under the limit, arms range from {{R:rng:clean:math:min}}% to {{R:rng:clean:math:max}}%. Opus's layers have the lowest share: {{R:cleancmp:b:c:dif}} points against random layers {{R:cleancmp:b:c:ci}}. Even the four random draws differ widely.</li>
+  </ul>
+  <figure class="fig">
+    <img src="figures/fig3.svg" alt="Share of clean responses per arm on MATH, with Opus's layers lowest and the four random draws of the placebo spread widely; and accuracy among clean responses versus responses that close more than once." loading="lazy">
+    <figcaption><strong>Clean responses on MATH (exploratory).</strong> Left: share per arm, with the placebo's four random layer groups labeled. Right: accuracy of clean responses (filled) and of responses that close more than once (hatched).</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="lim-title">
+  <h2 id="lim-title">Limitations</h2>
+  <ul>
+    <li><strong>Four adapters per arm,</strong> each group of layers trained once. Our intervals try to count that, but with four units they are rough.</li>
+    <li><strong>Some analysis choices came after seeing results:</strong> the correction families, the interval we call primary, the comparisons with <code>p50c</code> and everything marked exploratory.</li>
+    <li><strong>Reduced scope.</strong> A planned second task (teaching facts about a fictional company) was dropped after seeing MATH, and Opus's layers were never evaluated at temperature {{M:TempHigh}}.</li>
+    <li><strong>No control for the data.</strong> Every adapter uses the same examples, so we cannot say how much of the fix comes from the training data.</li>
+    <li><strong>Opus had a hint.</strong> Its context named the two layers of the published edit, and the four sessions agreed little with each other.</li>
+    <li><strong>One model, one recipe,</strong> and {{M:NMath}} problems per task.</li>
+  </ul>
+  <p>The paper lists all of them.</p>
+</section>
+
+<section aria-labelledby="read-title">
+  <h2 id="read-title">Read more</h2>
+  <p><a href="paper.pdf">Paper (PDF)</a> · <a href="https://github.com/JKUL-png/llm-guided-lora">Code and data</a>. Every number on this page is generated from the logged results by the same scripts that write the paper's tables.</p>
+  <div class="cite">
+    <pre id="bibtex">@misc{giraldo2026where,
+  title  = {Does It Help When an LLM Chooses Where to Train?
+            Opus-Chosen Layers for a LoRA Against Random
+            and Rule-Based Choices},
+  author = {Giraldo M{\'a}rquez, Juan Jos{\'e} and G{\'o}mez, Juan Jos{\'e}},
+  year   = {2026},
+  url    = {https://github.com/JKUL-png/llm-guided-lora}
+}</pre>
+  </div>
+  <p class="note">Layers for arms (b) and (f) were chosen by Claude Opus sessions; that is part of the method. The code, analysis scripts and drafts were written with AI assistance (Claude Code); the figures are by Juan José Gómez, made with AI assistance. The authors take full responsibility for the content; see the AI use statement in the paper.</p>
+</section>
+</main>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="js/math.js"></script>
+</body>
+</html>

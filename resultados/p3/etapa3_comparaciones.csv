@@ -1,0 +1,5 @@
+familia,estado,metrica,X,Y,comparacion,pct_X,pct_Y,dif_puntos,ic95_bajo,ic95_alto,solo_X,solo_Y,p_mcnemar,p_holm,tamano_familia,sobrevive_holm_0.05
+vs_sin_thinking_T10,FIJADA_EN_PLAN,correctas,e,N,(e) automatico barrido a 1.0 - original sin thinking a 1.0 (ref.),54.25,51.5,2.75,-3.5,9.0,69,58,0.374957,0.374957,1,no
+vs_sin_thinking_T10,EXPLORATORIO,al_limite,e,N,(e) automatico barrido a 1.0 - original sin thinking a 1.0 (ref.),0.25,1.0,-0.75,-2.0,0.25,1,4,0.375,0.375,1,no
+vs_con_thinking_T10,EXPLORATORIO,correctas,e,T,(e) automatico barrido a 1.0 - original con thinking a 1.0 (ref.),54.25,17.75,36.5,29.75,43.5,153,7,0.0,0.0,1,si
+vs_con_thinking_T10,EXPLORATORIO,al_limite,e,T,(e) automatico barrido a 1.0 - original con thinking a 1.0 (ref.),0.25,82.25,-82.0,-87.75,-75.75,0,328,0.0,0.0,1,si

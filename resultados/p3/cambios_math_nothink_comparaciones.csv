@@ -1,0 +1,11 @@
+tarea,referencia,metrica,comparacion,dif_puntos,ic95_bajo,ic95_alto,cruza_cero,estado
+math,original_nothink_T06,pct_empeora,(b) 4 capas - (a) 24 capas,-6.75,-11.0,-2.75,no,EXPLORATORIO
+math,original_nothink_T06,pct_mejora,(b) 4 capas - (a) 24 capas,1.75,-1.25,4.75,si,EXPLORATORIO
+math,original_nothink_T06,pct_empeora,(c) 4 capas - (a) 24 capas,-8.75,-13.5,-4.25,no,EXPLORATORIO
+math,original_nothink_T06,pct_mejora,(c) 4 capas - (a) 24 capas,1.25,-1.75,4.25,si,EXPLORATORIO
+math,original_nothink_T06,pct_empeora,(d) 4 capas - (a) 24 capas,-4.25,-8.5,-0.25,no,EXPLORATORIO
+math,original_nothink_T06,pct_mejora,(d) 4 capas - (a) 24 capas,1.5,-1.5,4.5,si,EXPLORATORIO
+math,original_nothink_T06,pct_empeora,(e) 4 capas - (a) 24 capas,-8.25,-12.5,-4.25,no,EXPLORATORIO
+math,original_nothink_T06,pct_mejora,(e) 4 capas - (a) 24 capas,4.75,1.75,8.0,no,EXPLORATORIO
+math,original_nothink_T06,pct_empeora,(f) 4 capas - (a) 24 capas,-5.5,-10.25,-1.0,no,EXPLORATORIO
+math,original_nothink_T06,pct_mejora,(f) 4 capas - (a) 24 capas,1.0,-2.0,4.0,si,EXPLORATORIO

@@ -1,0 +1,89 @@
+familia,tamano,tarea,X,Y,dif_puntos,ic95,p_mcnemar400,holm_mcnemar400,p_signos_exacta,holm_signos,sobrevive_mcnemar400,sobrevive_signos
+math_principal_2 (original),2,math,b,c,-1.5,"[-6.25, 3.25]",0.602412,0.602412,0.618179,0.69048,no,no
+math_principal_2 (original),2,math,b,d,2.75,"[-2.25, 8.0]",0.299732,0.599464,0.34524,0.69048,no,no
+math_vs_sin_thinking_6 (original),6,math,a,N,-6.25,"[-12.75, 0.0]",0.024794,0.12397,0.069053,0.345265,no,no
+math_vs_sin_thinking_6 (original),6,math,b,N,2.25,"[-3.0, 7.25]",0.41191,1.0,0.441942,1.0,no,no
+math_vs_sin_thinking_6 (original),6,math,c,N,3.75,"[-1.5, 9.0]",0.128396,0.513584,0.197161,0.788644,no,no
+math_vs_sin_thinking_6 (original),6,math,d,N,-0.5,"[-6.25, 5.25]",0.921949,1.0,0.932161,1.0,no,no
+math_vs_sin_thinking_6 (original),6,math,e,N,6.75,"[1.5, 12.0]",0.009335,0.05601,0.016041,0.096246,no,no
+math_vs_sin_thinking_6 (original),6,math,f,N,0.25,"[-4.75, 5.25]",1.0,1.0,1.0,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,b,c,-1.5,"[-6.25, 3.25]",0.602412,1.0,0.618179,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,b,d,2.75,"[-2.25, 8.0]",0.299732,1.0,0.34524,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,b,a,8.5,"[3.5, 13.75]",0.000438,0.003942,0.00198,0.01782,si,si
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,a,N,-6.25,"[-12.75, 0.0]",0.024794,0.173558,0.069053,0.483371,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,b,N,2.25,"[-3.0, 7.25]",0.41191,1.0,0.441942,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,c,N,3.75,"[-1.5, 9.0]",0.128396,0.770376,0.197161,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,d,N,-0.5,"[-6.25, 5.25]",0.921949,1.0,0.932161,1.0,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,e,N,6.75,"[1.5, 12.0]",0.009335,0.07468,0.016041,0.128328,no,no
+math_todas_las_fijadas_a_0.6_juntas_9 (alternativa),9,math,f,N,0.25,"[-4.75, 5.25]",1.0,1.0,1.0,1.0,no,no
+math_vs_sin_thinking_solo_brazos_del_PLAN_original_abcd_4 (alternativa),4,math,a,N,-6.25,"[-12.75, 0.0]",0.024794,0.099176,0.069053,0.276212,no,no
+math_vs_sin_thinking_solo_brazos_del_PLAN_original_abcd_4 (alternativa),4,math,b,N,2.25,"[-3.0, 7.25]",0.41191,0.82382,0.441942,0.883884,no,no
+math_vs_sin_thinking_solo_brazos_del_PLAN_original_abcd_4 (alternativa),4,math,c,N,3.75,"[-1.5, 9.0]",0.128396,0.385188,0.197161,0.591483,no,no
+math_vs_sin_thinking_solo_brazos_del_PLAN_original_abcd_4 (alternativa),4,math,d,N,-0.5,"[-6.25, 5.25]",0.921949,0.921949,0.932161,0.932161,no,no
+math_4capas_vs_a_5 (exploratoria original),5,math,b,a,8.5,"[3.5, 13.75]",0.000438,0.001314,0.00198,0.00594,si,si
+math_4capas_vs_a_5 (exploratoria original),5,math,c,a,10.0,"[5.0, 15.5]",9.3e-05,0.000372,0.000476,0.001904,si,si
+math_4capas_vs_a_5 (exploratoria original),5,math,d,a,5.75,"[1.0, 10.5]",0.019187,0.037622,0.030121,0.060242,si,no
+math_4capas_vs_a_5 (exploratoria original),5,math,e,a,13.0,"[8.25, 17.75]",0.0,0,1e-06,5e-06,si,si
+math_4capas_vs_a_5 (exploratoria original),5,math,f,a,6.5,"[1.0, 12.0]",0.018811,0.037622,0.030796,0.060242,si,no
+math_centrales_5 (exploratoria original),5,math,f,c,-3.5,"[-8.5, 1.25]",0.174984,0.524952,0.19949,0.66492,no,no
+math_centrales_5 (exploratoria original),5,math,d,c,-4.25,"[-9.75, 1.25]",0.107352,0.429408,0.16623,0.66492,no,no
+math_centrales_5 (exploratoria original),5,math,e,c,3.0,"[-1.75, 7.75]",0.224245,0.524952,0.257967,0.66492,no,no
+math_centrales_5 (exploratoria original),5,math,f,d,0.75,"[-3.75, 5.25]",0.830373,0.830373,0.831176,0.831176,no,no
+math_centrales_5 (exploratoria original),5,math,f,e,-6.5,"[-11.0, -2.25]",0.006674,0.03337,0.007364,0.03682,si,si
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,b,c,-1.5,"[-6.25, 3.25]",0.602412,1.0,0.618179,1.0,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,b,d,2.75,"[-2.25, 8.0]",0.299732,0.899196,0.34524,1.0,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,f,c,-3.5,"[-8.5, 1.25]",0.174984,0.87492,0.19949,0.99745,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,d,c,-4.25,"[-9.75, 1.25]",0.107352,0.644112,0.16623,0.99738,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,e,c,3.0,"[-1.75, 7.75]",0.224245,0.89698,0.257967,1.0,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,f,d,0.75,"[-3.75, 5.25]",0.830373,1.0,0.831176,1.0,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,f,e,-6.5,"[-11.0, -2.25]",0.006674,0.053392,0.007364,0.058912,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,e,b,4.5,"[0.5, 8.5]",0.059808,0.418656,0.037932,0.265524,no,no
+math_parejas_entre_brazos_de_4_capas_9 (alternativa),9,math,e,d,7.25,"[3.0, 11.75]",0.002195,0.019755,0.00203,0.01827,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,a,N,10.0,"[4.5, 15.75]",0.000172,0.000172,0.000896,0.000896,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,b,N,12.75,"[7.0, 18.75]",2e-06,8e-06,4e-05,0.000132,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,c,N,12.0,"[6.75, 17.75]",1e-06,5e-06,3.3e-05,0.000132,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,d,N,12.5,"[7.5, 17.5]",0.0,0,2e-06,1.2e-05,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,e,N,12.0,"[7.0, 17.25]",3e-06,9e-06,1.8e-05,9e-05,si,si
+gsm8k_vs_sin_thinking_6 (original),6,gsm8k,f,N,11.25,"[6.0, 16.75]",1.6e-05,3.2e-05,8.9e-05,0.000178,si,si
+ifeval_vs_sin_thinking_6 (original),6,ifeval,a,N,-1.0,"[-8.0, 6.0]",0.784328,1.0,0.834861,1.0,no,no
+ifeval_vs_sin_thinking_6 (original),6,ifeval,b,N,-4.75,"[-11.5, 2.0]",0.101368,0.608208,0.203596,1.0,no,no
+ifeval_vs_sin_thinking_6 (original),6,ifeval,c,N,-1.75,"[-9.0, 5.5]",0.597485,1.0,0.689834,1.0,no,no
+ifeval_vs_sin_thinking_6 (original),6,ifeval,d,N,-4.5,"[-11.0, 2.0]",0.12651,0.63255,0.211923,1.0,no,no
+ifeval_vs_sin_thinking_6 (original),6,ifeval,e,N,1.75,"[-5.5, 9.0]",0.594615,1.0,0.68886,1.0,no,no
+ifeval_vs_sin_thinking_6 (original),6,ifeval,f,N,0.0,"[-6.5, 6.75]",1.0,1.0,1.0,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,a,N,-6.25,"[-12.75, 0.0]",0.024794,0.272734,0.069053,0.759583,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,b,N,2.25,"[-3.0, 7.25]",0.41191,1.0,0.441942,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,c,N,3.75,"[-1.5, 9.0]",0.128396,1.0,0.197161,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,d,N,-0.5,"[-6.25, 5.25]",0.921949,1.0,0.932161,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,e,N,6.75,"[1.5, 12.0]",0.009335,0.11202,0.016041,0.192492,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,math,f,N,0.25,"[-4.75, 5.25]",1.0,1.0,1.0,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,a,N,10.0,"[4.5, 15.75]",0.000172,0.002236,0.000896,0.011648,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,b,N,12.75,"[7.0, 18.75]",2e-06,3.2e-05,4e-05,0.0006,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,c,N,12.0,"[6.75, 17.75]",1e-06,1.7e-05,3.3e-05,0.000528,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,d,N,12.5,"[7.5, 17.5]",0.0,0,2e-06,3.6e-05,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,e,N,12.0,"[7.0, 17.25]",3e-06,4.5e-05,1.8e-05,0.000306,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,gsm8k,f,N,11.25,"[6.0, 16.75]",1.6e-05,0.000224,8.9e-05,0.001246,si,si
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,a,N,-1.0,"[-8.0, 6.0]",0.784328,1.0,0.834861,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,b,N,-4.75,"[-11.5, 2.0]",0.101368,1.0,0.203596,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,c,N,-1.75,"[-9.0, 5.5]",0.597485,1.0,0.689834,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,d,N,-4.5,"[-11.0, 2.0]",0.12651,1.0,0.211923,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,e,N,1.75,"[-5.5, 9.0]",0.594615,1.0,0.68886,1.0,no,no
+vs_sin_thinking_las_3_tareas_juntas_18 (alternativa),18,ifeval,f,N,0.0,"[-6.5, 6.75]",1.0,1.0,1.0,1.0,no,no
+"math_vs_p50c_6 (nueva, revision)",6,math,a,P,-5.75,"[-10.75, -0.75]",0.029682,0.14841,0.037265,0.186325,no,no
+"math_vs_p50c_6 (nueva, revision)",6,math,b,P,2.75,"[-2.5, 8.0]",0.329137,0.987411,0.358501,1.0,no,no
+"math_vs_p50c_6 (nueva, revision)",6,math,c,P,4.25,"[-1.0, 9.75]",0.092947,0.371788,0.153213,0.612852,no,no
+"math_vs_p50c_6 (nueva, revision)",6,math,d,P,0.0,"[-5.25, 5.25]",1.0,1.0,1.0,1.0,no,no
+"math_vs_p50c_6 (nueva, revision)",6,math,e,P,7.25,"[2.25, 12.5]",0.003462,0.020772,0.007882,0.047292,si,si
+"math_vs_p50c_6 (nueva, revision)",6,math,f,P,0.75,"[-4.25, 5.75]",0.826405,1.0,0.845156,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,a,P,-2.0,"[-6.75, 2.75]",0.439705,1.0,0.468154,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,b,P,0.75,"[-3.75, 5.25]",0.830373,1.0,0.831306,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,c,P,0.0,"[-4.75, 4.75]",1.0,1.0,1.0,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,d,P,0.5,"[-4.0, 5.0]",0.913202,1.0,0.914287,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,e,P,0.0,"[-4.5, 4.25]",1.0,1.0,1.0,1.0,no,no
+"gsm8k_vs_p50c_6 (nueva, revision)",6,gsm8k,f,P,-0.75,"[-5.0, 3.5]",0.815121,1.0,0.821291,1.0,no,no
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,a,P,-8.75,"[-14.5, -3.0]",0.002045,0.006135,0.004728,0.014184,si,si
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,b,P,-12.5,"[-19.25, -6.0]",8e-06,4.8e-05,0.000564,0.00282,si,si
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,c,P,-9.5,"[-15.25, -4.0]",0.000371,0.001484,0.001217,0.004868,si,si
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,d,P,-12.25,"[-18.25, -6.5]",1.4e-05,7e-05,0.000142,0.000852,si,si
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,e,P,-6.0,"[-12.25, -0.25]",0.036877,0.036877,0.068387,0.068387,si,no
+"ifeval_vs_p50c_6 (nueva, revision)",6,ifeval,f,P,-7.75,"[-14.0, -1.5]",0.005319,0.010638,0.021599,0.043198,si,si

@@ -1,0 +1,31 @@
+tarea,familia,estado,metrica,comparacion,pct_X,pct_Y,dif_puntos,ic95_bajo,ic95_alto,solo_X,solo_Y,p_mcnemar,p_holm,tamano_familia,sobrevive_holm_0.05
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(a) 24 capas - original sin thinking,65.5,55.5,10.0,4.5,15.75,75,35,0.000172,0.000172,6,si
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(b) Opus informado - original sin thinking,68.25,55.5,12.75,7.0,18.75,82,31,2e-06,8e-06,6,si
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(c) placebo - original sin thinking,67.5,55.5,12.0,6.75,17.75,73,25,1e-06,5e-06,6,si
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(d) gradiente - original sin thinking,68.0,55.5,12.5,7.5,17.5,73,23,0.0,0,6,si
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(e) barrido - original sin thinking,67.5,55.5,12.0,7.0,17.25,77,29,3e-06,9e-06,6,si
+gsm8k,vs_sin_thinking,FIJADA_EN_PLAN,correctas,(f) Opus+barrido - original sin thinking,66.75,55.5,11.25,6.0,16.75,76,31,1.6e-05,3.2e-05,6,si
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(a) 24 capas - original sin thinking,1.75,1.25,0.5,-1.0,2.0,6,4,0.753906,1.0,6,no
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(b) Opus informado - original sin thinking,4.5,1.25,3.25,1.25,5.5,17,4,0.007197,0.043182,6,si
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(c) placebo - original sin thinking,2.0,1.25,0.75,-0.75,2.25,8,5,0.581055,1.0,6,no
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(d) gradiente - original sin thinking,4.25,1.25,3.0,0.75,5.25,17,5,0.016901,0.084505,6,no
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(e) barrido - original sin thinking,1.25,1.25,0.0,-1.75,2.0,5,5,1.0,1.0,6,no
+gsm8k,vs_sin_thinking,EXPLORATORIO,al_limite,(f) Opus+barrido - original sin thinking,1.75,1.25,0.5,-1.25,2.5,7,5,0.774414,1.0,6,no
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(a) 24 capas - original con thinking,65.5,11.75,53.75,46.75,60.5,216,1,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(b) Opus informado - original con thinking,68.25,11.75,56.5,49.5,63.5,229,3,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(c) placebo - original con thinking,67.5,11.75,55.75,48.75,62.75,224,1,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(d) gradiente - original con thinking,68.0,11.75,56.25,49.25,63.25,227,2,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(e) barrido - original con thinking,67.5,11.75,55.75,48.75,62.75,225,2,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,correctas,(f) Opus+barrido - original con thinking,66.75,11.75,55.0,47.5,62.25,222,2,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(a) 24 capas - original con thinking,1.75,87.75,-86.0,-90.25,-81.5,1,345,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(b) Opus informado - original con thinking,4.5,87.75,-83.25,-87.5,-78.5,0,333,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(c) placebo - original con thinking,2.0,87.75,-85.75,-90.0,-81.25,0,343,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(d) gradiente - original con thinking,4.25,87.75,-83.5,-87.75,-79.0,2,336,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(e) barrido - original con thinking,1.25,87.75,-86.5,-90.75,-82.0,0,346,0.0,0,6,si
+gsm8k,vs_con_thinking,EXPLORATORIO,al_limite,(f) Opus+barrido - original con thinking,1.75,87.75,-86.0,-90.25,-81.5,0,344,0.0,0,6,si
+gsm8k,secundaria_b_vs_a,FIJADA_EN_PLAN,correctas,(b) Opus informado - (a) 24 capas,68.25,65.5,2.75,-1.25,6.75,42,31,0.241645,0.241645,1,no
+gsm8k,secundaria_b_vs_a,EXPLORATORIO,al_limite,(b) Opus informado - (a) 24 capas,4.5,1.75,2.75,0.75,5.0,16,5,0.026604,0.026604,1,si
+gsm8k,exploratoria_b_vs_c_d,EXPLORATORIO,correctas,(b) Opus informado - (c) placebo,68.25,67.5,0.75,-4.25,6.0,45,42,0.830373,1.0,2,no
+gsm8k,exploratoria_b_vs_c_d,EXPLORATORIO,correctas,(b) Opus informado - (d) gradiente,68.25,68.0,0.25,-4.75,5.25,45,44,1.0,1.0,2,no
+gsm8k,exploratoria_b_vs_c_d,EXPLORATORIO,al_limite,(b) Opus informado - (c) placebo,4.5,2.0,2.5,0.0,5.0,18,8,0.075519,0.151038,2,no
+gsm8k,exploratoria_b_vs_c_d,EXPLORATORIO,al_limite,(b) Opus informado - (d) gradiente,4.5,4.25,0.25,-2.0,2.75,17,16,1.0,1.0,2,no

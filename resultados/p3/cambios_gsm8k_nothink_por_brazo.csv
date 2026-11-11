@@ -1,0 +1,7 @@
+tarea,referencia,brazo,parejas,original_acierta,original_falla,pct_empeora,pct_mejora,pct_igual,pct_empeora_dado_original_acierta,pct_mejora_dado_original_falla,neto_mejora_menos_empeora,estado,ic95_pct_empeora_bajo,ic95_pct_empeora_alto,ic95_pct_mejora_bajo,ic95_pct_mejora_alto,ic95_neto_bajo,ic95_neto_alto
+gsm8k,original_nothink_T06,a,400,222,178,8.75,18.75,72.5,15.77,42.13,10.0,EXPLORATORIO,6.0,11.75,14.25,23.5,4.5,15.75
+gsm8k,original_nothink_T06,b,400,222,178,7.75,20.5,71.75,13.96,46.07,12.75,EXPLORATORIO,5.0,10.5,15.5,25.75,7.0,18.75
+gsm8k,original_nothink_T06,c,400,222,178,6.25,18.25,75.5,11.26,41.01,12.0,EXPLORATORIO,4.0,8.75,13.5,23.5,6.75,17.75
+gsm8k,original_nothink_T06,d,400,222,178,5.75,18.25,76.0,10.36,41.01,12.5,EXPLORATORIO,3.5,8.25,14.0,23.0,7.5,17.5
+gsm8k,original_nothink_T06,e,400,222,178,7.25,19.25,73.5,13.06,43.26,12.0,EXPLORATORIO,4.75,9.75,14.75,23.75,7.0,17.25
+gsm8k,original_nothink_T06,f,400,222,178,7.75,19.0,73.25,13.96,42.7,11.25,EXPLORATORIO,5.0,10.75,14.5,23.75,6.0,16.75

@@ -1,0 +1,91 @@
+% Generado por paper2/paper/scripts/make_macros.py. NO EDITAR A MANO. Cada macro indica su fuente.
+\newcommand{\NLora}{24} % resultados/p3_lista_lora.csv
+\newcommand{\NArms}{6} % resultados/p3_lista_lora.csv
+\newcommand{\NSeeds}{4} % resultados/p3_lista_lora.csv
+\newcommand{\ParamsLora}{2{,}654{,}208} % resultados/p3_lista_lora.csv
+\newcommand{\MaxTrainTokens}{22{,}000} % resultados/p3_lista_lora.csv
+\newcommand{\NExamples}{388} % resultados/p3_lista_lora.csv
+\newcommand{\NTrainTokens}{3{,}269{,}949} % resultados/p3_lista_lora.csv
+\newcommand{\Epochs}{1} % resultados/p3_lista_lora.csv
+\newcommand{\Accum}{8} % resultados/p3_lista_lora.csv
+\newcommand{\LearningRate}{2\times10^{-4}} % resultados/p3_lista_lora.csv
+\newcommand{\RankFull}{8} % resultados/p3_lista_lora.csv
+\newcommand{\AlphaFull}{16} % resultados/p3_lista_lora.csv
+\newcommand{\NLayersFull}{24} % resultados/p3_lista_lora.csv
+\newcommand{\RankFour}{48} % resultados/p3_lista_lora.csv
+\newcommand{\AlphaFour}{96} % resultados/p3_lista_lora.csv
+\newcommand{\NLayersFour}{4} % resultados/p3_lista_lora.csv
+\newcommand{\NModelLayers}{24} % Qwen3.5-0.8B tiene 24 bloques (PLAN.md s.1)
+\newcommand{\TrainSteps}{49} % resultados/p3/entrenamiento/*.json
+\newcommand{\NTrainProblems}{1{,}200} % datos/lora_bucles.jsonl.resumen.json
+\newcommand{\NForced}{303} % datos/lora_bucles.jsonl.resumen.json
+\newcommand{\NNatural}{85} % datos/lora_bucles.jsonl.resumen.json
+\newcommand{\NDroppedLong}{6} % datos/lora_bucles.jsonl.resumen.json
+\newcommand{\PctForced}{78} % datos/lora_bucles.jsonl.resumen.json (forzadas/ejemplos)
+\newcommand{\OpusSharedMean}{1.33} % resultados/p3_lista_lora.csv (capas del brazo b, 6 pares de sesiones)
+\newcommand{\OpusSharedChance}{0.67} % valor esperado por azar = 4*4/24
+\newcommand{\OpusLayerFifteen}{3} % capas elegidas por Opus (b), de 4 sesiones
+\newcommand{\OpusLayerNineteen}{2} % idem
+\newcommand{\PlaceboRule}{\texttt{random.Random(20261106+s).sample(range(24), 4)}} % datos/capas_placebo.json
+\newcommand{\SweepResponses}{37} % resultados/barrido/barrido.csv.fragmentos.json
+\newcommand{\SweepFragments}{296} % resultados/barrido/barrido.csv.fragmentos.json
+\newcommand{\SweepControl}{3} % resultados/barrido/barrido.csv.fragmentos.json
+\newcommand{\SweepFragPerResp}{8} % resultados/barrido/barrido.csv.fragmentos.json (fragmentos por respuesta)
+\newcommand{\SweepConditions}{49} % resultados/barrido/barrido.csv (1 normal + 24 capas x 2 variantes)
+\newcommand{\SweepDiagProblems}{40} % datos/diag40_ids.txt (40 problemas del diagnostico)
+\newcommand{\NMath}{100} % datos/math500_subset100_ids.txt
+\newcommand{\NGsm}{100} % datos/gsm8k_subset100_ids.txt
+\newcommand{\NIfeval}{100} % datos/ifeval_subset100_ids.txt
+\newcommand{\NPairs}{400} % problemas x 4 semillas
+\newcommand{\MathLevels}{8, 18, 21, 26, 27} % datos/math500_subset100.jsonl (problemas por nivel 1 a 5)
+\newcommand{\MathSubsetSeed}{20261103} % datos/math500_subset100_ids.txt
+\newcommand{\TempMain}{0.6} % scripts/comun_math.py BASE_MIT
+\newcommand{\MaxTokensEval}{32{,}768} % scripts/comun_math.py BASE_MIT
+\newcommand{\PresencePenalty}{1.5} % scripts/comun_math.py BASE_MIT
+\newcommand{\BootProblemReps}{10{,}000} % scripts/revision/rev_estadistica.py
+\newcommand{\BootProblemSeed}{20261107} % scripts/revision/rev_estadistica.py
+\newcommand{\BootTwoWayReps}{4{,}000} % scripts/revision/rev_estadistica.py
+\newcommand{\BootTwoWaySeed}{20261110} % scripts/revision/rev_estadistica.py
+\newcommand{\HolmAlpha}{0.05} % convencion; columnas sobrevive_holm_0.05 de los CSV
+\newcommand{\DWaLo}{0.0162} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWaHi}{0.0164} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWbLo}{0.0367} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWbHi}{0.0390} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWcLo}{0.0377} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWcHi}{0.0452} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWdLo}{0.0364} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWdHi}{0.0369} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWeLo}{0.0380} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWeHi}{0.0392} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWfLo}{0.0370} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\DWfHi}{0.0392} % resultados/revision/rev_dw_resumen.csv
+\newcommand{\MinKept}{0.9968} % resultados/revision/rev_dw_resumen.csv (minima fraccion del parche conservada tras bf16)
+\newcommand{\MitEntries}{130{,}188} % datos/mit_exp8/edits/p50c/manifest.json
+\newcommand{\MitTensors}{2} % datos/mit_exp8/edits/p50c/manifest.json
+\newcommand{\MitLayerA}{15} % datos/mit_exp8/edits/p50c/manifest.json
+\newcommand{\MitLayerB}{19} % datos/mit_exp8/edits/p50c/manifest.json
+\newcommand{\MitColumns}{64} % datos/mit_exp8/edits/p50c/manifest.json
+\newcommand{\RuleItems}{4{,}800} % resultados/revision/rev_regla_cierre_items.csv
+\newcommand{\RuleSame}{4{,}800} % resultados/revision/rev_regla_cierre_items.csv (columnas L y P1 iguales)
+\newcommand{\ParamsPerRankLayer}{13{,}824} % parametros / (24 capas x rango 8)
+\newcommand{\DateFirstCommit}{2026-11-07} % git log, commit cf51b47
+\newcommand{\DateBestArmRule}{2026-11-07} % git log, commit 7483729
+\newcommand{\DateHolmFamilies}{2026-11-09} % git log, commit 4274fd9
+\newcommand{\DateScopeCut}{2026-11-09} % git log, commit 5a7f102
+\newcommand{\OpusShortQueries}{50} % DISENO_INFORMADO.md
+\newcommand{\OpusLongSamples}{160} % DISENO_INFORMADO.md
+\newcommand{\OpusMaxCalls}{150} % DISENO_INFORMADO.md
+\newcommand{\OpusContextWords}{650} % DISENO_INFORMADO.md
+\newcommand{\GradExamples}{256} % PLAN.md
+\newcommand{\VocabSize}{248{,}320} % PLAN.md
+\newcommand{\SweepContTokens}{32} % DISENO_BARRIDO.md
+\newcommand{\SweepExtraPoints}{7} % DISENO_BARRIDO.md
+\newcommand{\TempHigh}{1.0} % scripts/comun_math.py (ficha_qwen)
+\newcommand{\NSeedPairings}{24} % 4! formas de emparejar las 4 semillas de dos brazos
+\newcommand{\LoraMinP}{0.029} % 2 / C(8,4): menor p posible comparando 4 LoRA contra 4 LoRA (permutacion de etiquetas)
+\newcommand{\WilsonHalf}{10} % semi-ancho aproximado del IC al 95% con n=100 y p=0.5
+\newcommand{\FSharedFirstTwo}{3} % p3_lista_lora.csv: capas compartidas entre las sesiones 1 y 2 del brazo (f)
+\newcommand{\BSharedFirstTwoMax}{2} % p3_lista_lora.csv: maximo de capas compartidas entre dos sesiones de (b)
+\newcommand{\DWfourLo}{0.0364} % resultados/revision/rev_dw_resumen.csv (brazos b-f)
+\newcommand{\DWfourHi}{0.0452} % resultados/revision/rev_dw_resumen.csv (brazos b-f)
+\newcommand*{\DraftMark}{} % main.tex: 0 todo pendientes

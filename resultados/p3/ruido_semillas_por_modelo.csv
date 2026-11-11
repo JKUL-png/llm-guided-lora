@@ -1,0 +1,25 @@
+tarea,modelo,parejas,pct_cambia,ic95_bajo,ic95_alto,pct_1a0,pct_0a1,pct_1a0_dado_correcto,ic95_1a0_dado_correcto_bajo,ic95_1a0_dado_correcto_alto,pct_correctas,solo_muestreo,estado
+math,think,1200,8.17,4.5,12.17,4.08,4.08,52.69,33.33,79.71,7.75,si,EXPLORATORIO
+math,nothink,1200,24.83,19.17,30.5,12.42,12.42,23.99,17.87,31.11,51.75,si,EXPLORATORIO
+math,a,1200,22.67,17.33,28.17,11.33,11.33,24.91,18.44,32.49,45.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+math,b,1200,26.33,21.0,31.67,13.17,13.17,24.38,18.81,30.86,54.0,no (incluye reentrenar el LoRA),EXPLORATORIO
+math,c,1200,20.33,15.17,25.67,10.17,10.17,18.32,13.09,24.31,55.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+math,d,1200,26.83,21.33,32.5,13.42,13.42,26.18,19.94,33.33,51.25,no (incluye reentrenar el LoRA),EXPLORATORIO
+math,e,1200,21.0,15.83,26.5,10.5,10.5,17.95,13.01,23.76,58.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+math,f,1200,24.0,18.83,29.33,12.0,12.0,23.08,17.49,29.79,52.0,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,think,1200,14.5,10.0,19.33,7.25,7.25,61.7,51.79,75.0,11.75,si,EXPLORATORIO
+gsm8k,nothink,1200,26.67,21.33,32.17,13.33,13.33,24.02,18.28,30.88,55.5,si,EXPLORATORIO
+gsm8k,a,1200,22.67,17.33,28.0,11.33,11.33,17.3,12.8,22.4,65.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,b,1200,20.17,15.17,25.33,10.08,10.08,14.77,10.66,19.5,68.25,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,c,1200,18.67,13.5,23.83,9.33,9.33,13.83,9.6,18.73,67.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,d,1200,21.0,15.83,26.33,10.5,10.5,15.44,11.19,20.17,68.0,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,e,1200,21.33,16.0,26.67,10.67,10.67,15.8,11.35,20.74,67.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+gsm8k,f,1200,19.17,14.0,24.67,9.58,9.58,14.36,10.05,19.55,66.75,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,think,1200,20.17,15.0,25.33,10.08,10.08,53.78,42.42,67.18,18.75,si,EXPLORATORIO
+ifeval,nothink,1200,20.67,15.33,26.17,10.33,10.33,20.67,14.89,27.4,50.0,si,EXPLORATORIO
+ifeval,a,1200,29.33,23.67,35.0,14.67,14.67,29.93,23.35,37.36,49.0,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,b,1200,28.5,22.83,34.0,14.25,14.25,31.49,24.23,40.0,45.25,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,c,1200,28.83,23.33,34.33,14.42,14.42,29.88,23.44,37.34,48.25,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,d,1200,28.67,23.17,34.17,14.33,14.33,31.5,24.58,39.54,45.5,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,e,1200,26.5,21.17,31.83,13.25,13.25,25.6,19.67,32.64,51.75,no (incluye reentrenar el LoRA),EXPLORATORIO
+ifeval,f,1200,24.67,19.33,30.0,12.33,12.33,24.67,18.92,31.27,50.0,no (incluye reentrenar el LoRA),EXPLORATORIO

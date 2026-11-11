@@ -1,0 +1,5 @@
+bloque,orden,que,pasos,celdas,gpu_horas_lo,gpu_horas_hi,base_del_estimado,tipo
+P6b,1,Original SIN thinking a 0.6 en GSM8K e IFEval (4 semillas),2,8,0.55,1.35,"mitad de P6b de plan_pendiente_v3 (solo 0.6); MATH sin thinking a 1.0 midio 9.5 min por celda",supuesto
+P5a,2,GSM8K e IFEval en los 24 LoRA a 0.6 (thinking),48,48,3.3,8.2,"escalado de p50c por 0.28 (9.1 min medios de MATH en LoRA P3 / 32.4 de p50c) + 1.7 min de carga; alto = p50c sin escalar",supuesto
+P6,3,3 semillas extra del original CON thinking a 0.6 en GSM8K e IFEval (semilla 0 ya existe),6,6,4.6,4.6,"medido en paper 1: 49.74 + 41.77 min por semilla",medido
+TOTAL,,,56,62,8.45,14.15,suma,

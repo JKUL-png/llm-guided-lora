@@ -1,0 +1,9 @@
+brazo,nombre,n,pct_correctas,ic95_correctas_bajo,ic95_correctas_alto,correctas_min_semilla,correctas_max_semilla,pct_al_limite,ic95_al_limite_bajo,ic95_al_limite_alto,al_limite_min_semilla,al_limite_max_semilla,tokens_medios,pct_varios_cierres
+a,(a) normal 24 capas,400,45.5,37.75,53.25,40.0,53.0,2.5,1.0,4.25,0.0,6.0,4179.2,17.75
+b,(b) Opus informado,400,54.0,46.5,61.5,51.0,58.0,10.5,7.0,14.25,6.0,18.0,7554.0,39.25
+c,(c) placebo al azar,400,55.5,47.5,63.5,53.0,57.0,6.0,3.75,8.75,2.0,13.0,6265.6,18.5
+d,(d) automatico gradiente,400,51.25,43.75,58.75,46.0,54.0,9.5,5.75,13.75,7.0,12.0,7344.3,29.5
+e,(e) automatico barrido,400,58.5,50.5,66.25,57.0,60.0,5.75,3.25,8.5,4.0,8.0,6140.0,21.75
+f,(f) Opus + barrido,400,52.0,44.25,59.5,47.0,55.0,6.5,3.75,9.5,4.0,10.0,6585.6,27.0
+T,original con thinking (ref.),400,7.75,4.0,12.0,6.0,9.0,92.25,88.0,96.0,91.0,94.0,30769.8,0.0
+N,original sin thinking (ref.),400,51.75,44.0,59.25,49.0,57.0,12.0,7.75,16.5,8.0,15.0,7955.0,0.0

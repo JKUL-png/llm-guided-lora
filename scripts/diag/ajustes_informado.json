@@ -1,0 +1,13 @@
+{
+  "env": { "BASH_DEFAULT_TIMEOUT_MS": "3600000", "BASH_MAX_TIMEOUT_MS": "3600000" },
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "allow": ["Bash(python herramientas/consultar.py *)"],
+    "deny": ["Read", "Edit", "Write", "Glob", "Grep", "WebFetch", "WebSearch", "NotebookEdit", "Agent", "Skill", "PowerShell"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "*", "hooks": [ { "type": "command", "command": "python <carpeta-aislada>/control/gancho.py" } ] }
+    ]
+  }
+}

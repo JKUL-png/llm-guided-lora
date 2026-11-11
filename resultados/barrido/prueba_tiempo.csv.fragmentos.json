@@ -1,0 +1,16 @@
+[
+{
+"frag": 0,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "principal",
+"k": 8972
+},
+{
+"frag": 1,
+"problema": 1,
+"id": "train/algebra/1579",
+"tipo": "bucle",
+"k": 8974
+}
+]

@@ -1,0 +1,4 @@
+escenario,supuesto_entrenar_s,supuesto_fusion_s,supuesto_evaluar_s,min_por_LoRA,lora,horas_total,base_del_supuesto
+optimista,1019,5,380,23.1,20,7.7,"entrenar y evaluar como las semillas 1-2 de (a) (las más rápidas)"
+central,1500,5,900,40.1,20,13.4,"entrenar mediana de (a) ~1500 s; evaluar 15 min (brazos que aún entren en bucle tardan más que (a))"
+conservador,2709,5,1800,75.1,20,25.0,"entrenar como a0 (la más lenta, 2709 s); evaluar 30 min"

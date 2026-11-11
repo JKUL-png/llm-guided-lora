@@ -1,0 +1,9 @@
+tarea,brazo,nombre,n,pct_correctas,ic95_correctas_bajo,ic95_correctas_alto,pct_al_limite,ic95_al_limite_bajo,ic95_al_limite_alto,tokens_medios,pct_varios_cierres,pct_por_semilla
+gsm8k,a,(a) 24 capas,400,65.5,58.0,72.75,1.75,0.5,3.0,2326.6,11.75,65 / 67 / 64 / 66
+gsm8k,b,(b) Opus informado,400,68.25,60.5,75.5,4.5,2.5,6.75,3420.4,14.5,70 / 64 / 70 / 69
+gsm8k,c,(c) placebo,400,67.5,59.75,75.0,2.0,0.75,3.5,2728.4,8.5,61 / 70 / 68 / 71
+gsm8k,d,(d) gradiente,400,68.0,60.5,75.0,4.25,2.5,6.25,3491.2,13.0,69 / 62 / 69 / 72
+gsm8k,e,(e) barrido,400,67.5,60.0,74.75,1.25,0.0,3.0,2367.3,3.5,69 / 69 / 68 / 64
+gsm8k,f,(f) Opus+barrido,400,66.75,58.75,74.25,1.75,0.5,3.25,2513.9,10.5,66 / 65 / 68 / 68
+gsm8k,N,original sin thinking,400,55.5,48.0,63.0,1.25,0.25,2.5,1925.9,0.0,57 / 57 / 57 / 51
+gsm8k,T,original con thinking,400,11.75,7.75,16.25,87.75,83.25,92.0,29303.5,0.0,16 / 10 / 11 / 10

@@ -1,0 +1,11 @@
+tarea,referencia,metrica,comparacion,dif_puntos,ic95_bajo,ic95_alto,cruza_cero,estado
+gsm8k,original_nothink_T06,pct_empeora,(b) 4 capas - (a) 24 capas,-1.0,-4.0,2.0,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_mejora,(b) 4 capas - (a) 24 capas,1.75,-1.25,4.75,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_empeora,(c) 4 capas - (a) 24 capas,-2.5,-5.5,0.5,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_mejora,(c) 4 capas - (a) 24 capas,-0.5,-4.25,3.25,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_empeora,(d) 4 capas - (a) 24 capas,-3.0,-6.0,-0.25,no,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_mejora,(d) 4 capas - (a) 24 capas,-0.5,-4.0,3.0,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_empeora,(e) 4 capas - (a) 24 capas,-1.5,-4.25,1.25,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_mejora,(e) 4 capas - (a) 24 capas,0.5,-2.5,3.5,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_empeora,(f) 4 capas - (a) 24 capas,-1.0,-4.0,2.0,si,EXPLORATORIO
+gsm8k,original_nothink_T06,pct_mejora,(f) 4 capas - (a) 24 capas,0.25,-3.25,3.5,si,EXPLORATORIO

@@ -1,0 +1,7 @@
+Corre estas órdenes, cada una sola, exactamente como están, sin cd antes y sin nada después.
+python herramientas/consultar.py ayuda
+python herramientas/consultar.py contexto
+python herramientas/consultar.py barrido
+python herramientas/consultar.py elegir --capas 1,2,3,4 --razones "Prueba positiva de la jaula, sin interpretar el barrido"
+python herramientas/consultar.py barrido
+Después dime en una línea qué devolvió la última y cuántas filas de capas tenía la tabla del barrido.
