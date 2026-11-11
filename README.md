@@ -8,6 +8,7 @@ This is part 2 of [decomposing-the-gain](https://github.com/JKUL-png/decomposing
 
 - **Blog:** https://jkul-png.github.io/llm-guided-lora/
 - **Paper:** [paper/llm_guided_lora.pdf](paper/llm_guided_lora.pdf), LaTeX sources in `paper/latex/`
+- **Full model responses:** `full_responses.zip` in the [Releases](https://github.com/JKUL-png/llm-guided-lora/releases) of this repository
 
 Authors: Juan José Giraldo Márquez and Juan José Gómez. Figures by Juan José Gómez, made with AI assistance.
 
@@ -38,7 +39,7 @@ From the repository root, with Python 3.11+ (standard library only, except the f
 
 Training and evaluation ran under WSL2 on one 8 GB GPU, with vLLM for generation and math-verify 0.9.0 for grading. The run scripts are published as they were used. They expect the original project layout: a folder with the [decomposing-the-gain](https://github.com/JKUL-png/decomposing-the-gain) repository at its root (whose `scripts/` provide generation and grading) and this paper under `paper2/`, at `/workspace/proyecto`. The Opus sessions ran in an isolated folder, outside the project, with only the tools in `scripts/diag/`.
 
-Full model responses are not included in this version.
+Full model responses for every run of this paper are in `full_responses.zip` in the [Releases](https://github.com/JKUL-png/llm-guided-lora/releases); unzip it into `resultados/`. The reference runs re-graded from part 1 (`resultados/calificacion/`, except the two control runs) have their responses in the [part 1 release](https://github.com/JKUL-png/decomposing-the-gain/releases).
 
 ## Notes on what is published
 
