@@ -2,3 +2,4 @@
 paper/latex/generated/** linguist-generated=true
 docs/index.html linguist-generated=true
 docs/vendor/** linguist-vendored=true
+docs/data/** linguist-generated=true

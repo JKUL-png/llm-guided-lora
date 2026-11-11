@@ -149,17 +149,47 @@ details.data summary { cursor: pointer; padding: .5rem 0; min-height: 44px; disp
 /* ---- Part 2 additions ---- */
 :root { --opus: #cc79a7; --auto: #009e73; --full: #555555; }
 @media (prefers-color-scheme: dark) { :root { --opus: #e09ac2; --auto: #2fc69a; --full: #a3a3a3; } }
-.fig, .design { margin: 1.4rem 0 1rem; font-family: var(--sans); }
-.fig img { display: block; width: 100%; height: auto; background: #fff; border-radius: 6px; padding: .4rem; }
-.fig figcaption, .design figcaption { font-size: .85rem; line-height: 1.45; color: var(--ink-2); margin-top: .5rem; }
-.design svg { display: block; width: 100%; height: auto; }
-.design .lbl { font: 600 10px var(--sans); fill: var(--ink); }
-.design .num { font: 8px var(--mono); fill: var(--ink-2); }
-.design .off { fill: var(--track); }
-.design .on-full { fill: var(--full); }
-.design .on-opus { fill: var(--opus); }
-.design .on-auto { fill: var(--auto); }
-.design .mit { fill: none; stroke: var(--ink-2); stroke-dasharray: 2 2; stroke-width: 1; }
+.chart { font-family: var(--sans); }
+.bar-fill.c-opus { background: var(--opus); } .bar-fill.c-auto { background: var(--auto); } .bar-fill.c-full { background: var(--full); }
+.bar-fill.c-opus.hatch { background: repeating-linear-gradient(135deg, var(--opus) 0 3px, var(--panel) 3px 6px); box-shadow: inset 0 0 0 1px var(--opus); }
+.bar-fill.c-auto.hatch { background: repeating-linear-gradient(135deg, var(--auto) 0 3px, var(--panel) 3px 6px); box-shadow: inset 0 0 0 1px var(--auto); }
+.bar-fill.c-full.hatch { background: repeating-linear-gradient(135deg, var(--full) 0 3px, var(--panel) 3px 6px); box-shadow: inset 0 0 0 1px var(--full); }
+.bar-fill.c-edit.hatch { background: repeating-linear-gradient(135deg, var(--edit) 0 3px, var(--panel) 3px 6px); box-shadow: inset 0 0 0 1px var(--edit); }
+.bar-row[role="button"], .dv-row, .lgrid-row[role="button"] { cursor: pointer; border-radius: 4px; }
+.bar-row.on, .dv-row.on, .lgrid-row.on { outline: 2px solid var(--ink); outline-offset: 2px; }
+.bar-row:focus-visible, .dv-row:focus-visible, .lgrid-row:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* diferencias: banda = intervalo de dos vias, linea = intervalo por problema, punto = diferencia */
+.dv-row { margin: .55rem 0; }
+.dv-track { position: relative; height: 14px; background: var(--track); border-radius: 4px; }
+.dv-band { position: absolute; top: 2px; bottom: 2px; border-radius: 3px; opacity: .35; transition: left .35s ease, width .35s ease; }
+.dv-line { position: absolute; top: 50%; height: 2px; margin-top: -1px; transition: left .35s ease, width .35s ease; }
+.dv-dot { position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; box-shadow: 0 0 0 1.5px var(--paper); transition: left .35s ease; }
+.dv-band.c-opus, .dv-line.c-opus, .dv-dot.c-opus { background: var(--opus); }
+.dv-band.c-auto, .dv-line.c-auto, .dv-dot.c-auto { background: var(--auto); }
+.dv-band.c-full, .dv-line.c-full, .dv-dot.c-full { background: var(--full); }
+.dv-band.c-orig, .dv-line.c-orig, .dv-dot.c-orig { background: var(--orig); }
+.dv-row.no .bar-side, .dv-row.no .bar-val { color: var(--ink-2); }
+.dv-row.solid .bar-side { color: var(--ink); font-weight: 650; }
+.sw-band { background: var(--ink-2); opacity: .35; width: 18px; }
+.sw-line { background: var(--ink-2); height: 2px; width: 18px; border-radius: 0; }
+
+/* diseno: una fila por adaptador, una celda por capa */
+.lgrid { font: .72rem/1 var(--sans); margin: .4rem 0; }
+.lgrid-row { display: flex; align-items: center; gap: .4rem; padding: 1px 0; }
+.lgrid-row.first { margin-top: .4rem; }
+.lgrid-name { flex: 0 0 6.6rem; font-weight: 650; font-size: .72rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lgrid-cells { flex: 1; display: grid; grid-template-columns: repeat(24, 1fr); gap: 2px; }
+.lgrid-cell { height: 10px; border-radius: 2px; background: var(--track); }
+.lgrid-cell.mit { box-shadow: inset 0 0 0 1px var(--ink-2); }
+.lgrid-cell.c-opus { background: var(--opus); } .lgrid-cell.c-auto { background: var(--auto); } .lgrid-cell.c-full { background: var(--full); }
+.lgrid-num { font: .6rem var(--mono); color: var(--ink-2); text-align: left; }
+.lgrid-head { margin-bottom: .1rem; }
+
+/* reproductor: tres carriles */
+.lane[data-arm="opus"] { --c: var(--opus); }
+.lane[data-arm="random"] { --c: var(--auto); }
+.screen mark.close { background: var(--opus); color: #111; border-radius: 2px; padding: 0 2px; }
 .tag { display: inline-block; vertical-align: middle; font: 700 .7rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase;
   color: var(--paper); background: var(--ink-2); border-radius: 3px; padding: .3rem .4rem; margin-right: .4rem; }
 .draft { color: var(--edit); }

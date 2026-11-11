@@ -1,0 +1,162 @@
+{
+ "examples": [
+  {
+   "id": "test/algebra/2199.json",
+   "category": "both_clean",
+   "level": 1,
+   "subject": "Algebra",
+   "problem": "Hillary has eleven coins, all dimes and nickels. In total, the coins are worth 75 cents. How many nickels does she have?",
+   "gold": "7",
+   "arms": {
+    "original": {
+     "tokens": 32768,
+     "limit": true,
+     "correct": false,
+     "chars": 68489,
+     "closes": 0,
+     "answer": null,
+     "loop": {
+      "start": 27073,
+      "period": 70,
+      "copies": 591,
+      "unit": "    Wait, I wrote \"$n + 2d = 15$.\"\n    Wait, I wrote \"$d + 2n = 15$.\"\n"
+     },
+     "head": "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Problem:**\n    *   Total number of coins ($N$) = 11.\n    *   Types of coins: Only dimes (10 cents) and nickels (5 cents).\n    *   Total value ($V$) = 75 cents.\n    *   Goal: Find the number of nickels ($n$).\n\n2.  **Define Variables:**\n    *   Let $d$ be the number of dimes.\n    *   Let $n$ be the number of nickels.\n    *   We know $d + n = 11$. (Total count constraint).\n\n3.  **Formulate Equations:**\n    *   Value equation: $10d + 5n = 75$.\n\n4.  **Solve the System:**\n    *   From the first equation, we have $d + n = 11$, so $d = 11 - n$.\n    *   Substitute this into the second equation:\n        $$10(11 - n) + 5n = 75$$\n    *   Expand:\n        $$110 - 10n + 5n = 75$$\n    *   Simplify:\n        $$110 - 5n = 75$$\n    *   Isolate $n$:\n        $$-5n = 75 - 110$$\n        $$-5n = -35$$\n        $$n = 7$$\n\n5.  **Verification:*",
+     "pre": "ckels) is 7.\"\n    Wait, I think I made a mistake in the second attempt.\n    Wait, I wrote \"Wait, I wrote '$5n + 10d = 75$'.\"\n    Wait, I wrote \"$n + 2d = 15$.\"\n    Wait, I wrote \"$d + 2n = 15$.\"\n    Wait, I wrote \"$n + 2d = 15$.\"\n    Wait, I wrote \"$d + 2n = 15$.\"\n    Wait, I wrote \"$n + 2d = 15$.\"\n",
+     "tail": ""
+    },
+    "opus": {
+     "tokens": 1237,
+     "limit": false,
+     "correct": true,
+     "chars": 3163,
+     "closes": 1,
+     "answer": "7",
+     "loop": null,
+     "head": "Here's my thought process for solving this problem:\n\n1.  **Analyze the Request:**\n    *   **Given:** Hillary has 11 coins. All are dimes and nickels.\n    *   **Total Value:** The total value of all coins is 75 cents.\n    *   **Goal:** Determine the number of nickels she has.\n    *   **Output Format:** Reason step-by-step and put the final answer in a box.\n\n2.  **Define Variables:**\n    *   Let $n$ be the number of nickels.\n    *   Let $d$ be the number of dimes.\n    *   Total coins = $n + d = 11$. So, $d = 11 - n$.\n\n3.  **Formulate Equations based on Values:**\n    *   A dime ($D$) is worth 10 cents.\n    *   A nickel ($N$) is worth 5 cents.\n    *   Total value equation: $(n \\times 5) + (d \\times 10) = 75$.\n\n4.  **Substitute Knowns into Equation:**\n    *   Substitute $d = 11 - n$:\n        $$5n + 10(11 - n) = 75$$\n\n5.  **Solve for $n$:**\n    *   Expand the term with parentheses:\n        $$5",
+     "pre": "",
+     "tail": "Total count)\n        2.  $5x + 10y = 75$ (Total value)\n    *   From eq 1, $y = 11 - x$.\n    *   Substitute into eq 2:\n        $5x + 10(11 - x) = 75$\n        $5x + 110 - 10x = 75$\n        $-5x = -35$\n        $x = 7$\n    *   Result is consistent.\n\n8.  **Final Answer Formulation:**\n    *   State the variables clearly.\n    *   Show the calculation steps.\n    *   Give the final integer answer.\n    *   Put it in the requested format.\n\n9.  **Construct Final Output:**\n    *   Start with defining nickels as $n$ and dimes as $d$.\n    *   Set up the equation based on the sum of values.\n    *   Solve for $n$.\n    *   Conclude with the boxed answer.\n</think>\n\nLet $n$ be the number of nickels and $d$ be the number of dimes.\n\nWe know that there are 11 coins in total:\n$$n + d = 11$$\n\nWe also know the value of each coin:\n*   A nickel is worth 5 cents.\n*   A dime is worth 10 cents.\n\nThe total value of the coins is 75 cents. We can set up an equation based on this information:\n$$5n + 10d = 75$$\n\nNow, substitute $d = 11 - n$ (since the total number of coins is 11) into the equation:\n$$5n + 10(11 - n) = 75$$\n\nExpand the expression:\n$$5n + 110 - 10n = 75$$\n\nCombine like terms ($5n$ and $-10n$):\n$$-5n + 110 = 75$$\n\nSubtract 110 from both sides:\n$$-5n = 75 - 110$$\n$$-5n = -35$$\n\nDivide by -5:\n$$n = 7$$\n\nSo, Hillary has 7 nickels.\n\nTo verify:\n*   7 nickels = $7 \\times 5 = 35$ cents\n*   Remaining coins = $11 - 7 = 4$ dimes\n*   $4 \\times 10 = 40$ cents\n*   Total value = $35 + 40 = 75$ cents.\n\n\\boxed{7}"
+    },
+    "random": {
+     "tokens": 1089,
+     "limit": false,
+     "correct": true,
+     "chars": 2726,
+     "closes": 1,
+     "answer": "7",
+     "loop": null,
+     "head": "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Problem:**\n    *   Total number of coins ($N$) = 11.\n    *   All coins are dimes and nickels.\n    *   Total value ($V$) = $75 cents$.\n    *   Goal: Find the number of nickels ($n$).\n\n2.  **Define Variables:**\n    *   Let $d$ be the number of dimes.\n    *   Let $n$ be the number of nickels.\n    *   Total number of coins = $d + n = 11$.\n    *   Value of one dime = $\\$0.10$ (or $100$ cents).\n    *   Value of one nickel = $\\$0.05$ (or $50$ cents).\n\n3.  **Formulate Equations:**\n    *   From the count: $d + n = 11$\n    *   From the value: $10d + 5n = 75$\n\n4.  **Solve the System of Equations:**\n    *   I have two equations with two variables. I can solve for $n$ using substitution or elimination, or simplify by dividing.\n    *   Equation 1: $d + n = 11 \\implies d = 11 - n$.\n    *   Substitute into Equation 2:\n        $10(1",
+     "pre": "",
+     "tail": "d = 26$ -> Wait, let me recheck my algebra.\n        Original: $10d + 5n = 75$\n        Divide by 5: $2d + n = 15$. Correct.\n        Add to $d + n = 11$:\n        $(2d + n) + (d - n) = 15 + 11$\n        $3d = 26$ -> No, that's wrong.\n        Let's restart the addition step.\n        Eq 1: $d + n = 11$\n        Eq 2: $2d + n = 15$\n        Subtract Eq 1 from Eq 2:\n        $(2d + n) - (d + n) = 15 - 11$\n        $d = 4$\n        Then substitute back into Eq 1: $4 + n = 11 \\implies n = 7$.\n\n    *   Okay, I have thought about this enough. I will stop here and give my final answer now.\n</think>\n\nLet $d$ be the number of dimes and $n$ be the number of nickels. We know there are 11 coins in total. Therefore:\n$$d + n = 11$$\n\nThe value of one dime is 10 cents and one nickel is 5 cents. The total value is 75 cents. So, we can write an equation for the value:\n$$10d + 5n = 75$$\n\nTo find the number of nickels ($n$), we can solve this system. First, divide the second equation by 5 to make it simpler:\n$$2d + n = 15$$\n\nNow, subtract the first equation ($d + n = 11$) from this new simplified equation:\n$$(2d + n) - (d + n) = 15 - 11$$\n$$d = 4$$\n\nSubstitute $d = 4$ back into the original sum equation to find $n$:\n$$4 + n = 11$$\n$$n = 7$$\n\nAlternatively, using the first equation directly:\n$$10(d) + 5(n) = 75$$\nSince $d = 11 - n$, substitute this into the equation:\n$$10(11 - n) + 5n = 75$$\n$$110 - 10n + 5n = 75$$\n$$110 - 5n = 75$$\n$$-5n = 75 - 110$$\n$$-5n = -35$$\n$$n = 7$$\n\nThere are 7 nickels.\n\n\\boxed{7}"
+    }
+   }
+  },
+  {
+   "id": "test/number_theory/931.json",
+   "category": "opus_multi",
+   "level": 2,
+   "subject": "Number Theory",
+   "problem": "If Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1. If her age is divided by 7, the remainder is 0. She is less than 75 years old. How many years old is Rosa?",
+   "gold": "49",
+   "arms": {
+    "original": {
+     "tokens": 32768,
+     "limit": true,
+     "correct": false,
+     "chars": 78350,
+     "closes": 0,
+     "answer": null,
+     "loop": {
+      "start": 34169,
+      "period": 1090,
+      "copies": 40,
+      "unit": "        Could it mean:\n        $r$ is divided by 2, 3, 4, or 6.\n        Wait, if $r$ is divided by 2, 3, 4, or 6, does it mean $r$ is a multiple of 2, 3, 4, or 6?\n        Wait, if $r$ is a multiple of 2, remainder is 0.\n        So $r$ is not a multiple of 2, 3, 4, 6.\n        So $r \\equiv 1 \\pmod{12}$.\n\n        Wait, is it possible that \"divided by 2, 3, 4, or 6\" means:\n        $r$ is divided by 2, 3, 4, or 6.\n        Wait, if $r$ is divided by 2, 3, 4, or 6, does it mean $r$ is a multiple of 2, 3, 4, or 6?\n        Wait, if $r$ is a multiple of 2, remainder is 0.\n        So $r$ is not a multiple of 2, 3, 4, 6.\n        So $r \\equiv 1 \\pmod{12}$.\n\n        Wait, I think I've been looping.\n        Let's check the solution 49 again.\n        $49 \\div 2 = 24$ rem 1.\n        $49 \\div 3 = 16$ rem 1.\n        $49 \\div 4 = 12$ rem 1.\n        $49 \\div 6 = 8$ rem 1.\n        $49 \\div 7 = 7$ rem 0.\n        $49 < 75$.\n        Seems correct.\n\n        Wait, is there any other interpretation of \"divided by 2, 3, 4, or 6\"?\n        \"If Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1.\"\n"
+     },
+     "head": "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Request:**\n    *   Rosa's age $r$ satisfies certain conditions.\n    *   Condition 1: $(r \\div k) = q + r_k$, where $k \\in \\{2, 3, 4, 6\\}$ and $r_k = 1$. This means $r \\equiv 1 \\pmod k$.\n    *   Condition 2: $(r \\div 7) = q_7 + 0$, where $q_7$ is an integer. Wait, the text says \"remainder is 0\". So $r \\equiv 0 \\pmod 7$.\n    *   Condition 3: $r < 75$.\n    *   Goal: Find $r$.\n\n2.  **Break Down Conditions:**\n    *   From condition 2 ($r \\div 7$ remainder 0):\n        $r$ is a multiple of 7.\n        Let $r = 7n$ for some positive integer $n$. Since she is less than 75, $0 < 7n < 75$.\n        Possible values for $n$:\n        If $n=1$, $r=7$.\n        If $n=2$, $r=14$.\n        If $n=3$, $r=21$.\n        If $n=4$, $r=28$.\n        If $n=5$, $r=35$.\n        If $n=6$, $r=42$.\n        If $n=7$, $r=49$.\n        If $n=8$, $r=56$.\n  ",
+     "pre": " 48 \\implies m = 4$.\n        $n=8 \\implies 56 = 12m + 1 \\implies 12m = 55$. No.\n        $n=9 \\implies 63 = 12m + 1 \\implies 12m = 62$. No.\n        $n=10 \\implies 70 = 12m + 1 \\implies 12m = 69$. No.\n        So only $n=7$ works.\n\n        Wait, what if \"divided by 2, 3, 4, or 6\" means something else?\n",
+     "tail": ""
+    },
+    "opus": {
+     "tokens": 3739,
+     "limit": false,
+     "correct": false,
+     "chars": 9128,
+     "closes": 2,
+     "answer": null,
+     "loop": null,
+     "head": "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Request:**\n    *   Given: Rosa's age ($r$) satisfies specific conditions.\n    *   Condition 1: $r \\pmod{2} = 1$, $r \\pmod{3} = 1$, $r \\pmod{4} = 1$, or $r \\pmod{6} = 1$. (Note: The prompt says \"divided by 2, 3, 4, or 6\". This means $r \\% 2 = 1$, etc.)\n    *   Condition 2: $r \\pmod{7} = 0$.\n    *   Constraint: $r < 75$.\n    *   Goal: Find the integer value of $r$.\n\n2.  **Translate Conditions into Math:**\n    Let $r$ be Rosa's age.\n    From Condition 2: $r \\equiv 0 \\pmod{7}$. So, $r$ is a multiple of 7. Let $r = 7k$ where $k$ is an integer $\\ge 1$ (since she has age).\n    From Condition 1: $r \\equiv 1 \\pmod{2}$, $r \\equiv 1 \\pmod{3}$, $r \\equiv 1 \\pmod{4}$, and $r \\equiv 1 \\pmod{6}$.\n\n    Wait, let me re-read carefully: \"If Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1.\"\n    Does this mean:\n    *   $(r/2)",
+     "pre": "",
+     "tail": "re any other interpretation?\nMaybe \"divided by 2, 3, 4, or 6\" means something else? No, standard math notation implies integer division.\nLet's re-read the prompt one more time. \"If Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1.\"\nThis phrasing is slightly ambiguous. It could mean:\nA) For every number in {2, 3, 4, 6}, the remainder upon division by that number is 1.\nB) There exists a number $x$ such that dividing by any of these yields remainder 1? No, that doesn't make sense.\nC) Maybe it means \"If you divide her age by 2, the remainder is 1\"? No, it lists them separately.\n\nLet's assume the strict interpretation: $r \\pmod{2}=1$, $r \\pmod{3}=1$, $r \\pmod{4}=1$, $r \\pmod{6}=1$.\nAs calculated above, only **49** satisfies all these conditions among multiples of 7.\n\nWait, did I miss something?\nWhat if $r=7$?\n$7 \\div 2 = 3$ rem 1.\n$7 \\div 3 = 2$ rem 1.\n$7 \\div 4 = 1$ rem 3.\n$7 \\div 6 = 1$ rem 1.\nSo $r=7$ is not valid because $7 \\div 4$ gives a remainder of 3.\n\nWhat about $r=14$?\n$14 \\div 2 = 7$ rem 0. Not valid.\n\nWhat about $r=21$?\n$21 \\div 2 = 10$ rem 1.\n$21 \\div 3 = 7$ rem 0. Not valid.\n\nWhat about $r=28$?\n$28 \\div 2 = 14$ rem 0. Not valid.\n\nWhat about $r=35$?\n$35 \\div 2 = 17$ rem 1.\n$35 \\div 3 = 11$ rem 2. Not valid.\n\nWhat about $r=42$?\n$42 \\div 2 = 21$ rem 0. Not valid.\n\nWhat about $r=49$?\n$49 \\div 2 = 24$ rem 1.\n$49 \\div 3 = 16$ rem 1.\n$49 \\div 4 = 12$ rem 1.\n$49 \\div 6 = 8$ rem 1.\nAll conditions satisfied.\n\nTherefore, the only candidate is **49**.\n\nFinal Answer: 49"
+    },
+    "random": {
+     "tokens": 4261,
+     "limit": false,
+     "correct": true,
+     "chars": 10107,
+     "closes": 1,
+     "answer": "49",
+     "loop": null,
+     "head": "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Problem:**\n    *   Rosa's age ($r$) is an integer (implied by \"age\" and standard math word problems).\n    *   Condition 1: $r \\pmod{2} = 1$ OR $r \\pmod{3} = 1$ OR $r \\pmod{4} = 1$ OR $r \\pmod{6} = 1$. Wait, let me re-read carefully.\n        *   \"If Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1.\"\n        *   This means for each divisor $d \\in \\{2, 3, 4, 6\\}$, $r \\equiv 1 \\pmod d$.\n    *   Condition 2: If her age is divided by 7, the remainder is 0.\n        *   This means $r \\equiv 0 \\pmod 7$. So, $r$ is a multiple of 7.\n    *   Condition 3: She is less than 75 years old.\n        *   $r < 75$.\n    *   Goal: Find the specific number of years Rosa is.\n\n2.  **Break Down Condition 1:**\n    *   Let $r$ be the age.\n    *   The condition states that if we divide $r$ by any of $\\{2, 3, 4, 6\\}$, the result is 1.\n ",
+     "pre": "",
+     "tail": "a multiple of 7. We can write $r = 7k$ for some integer $k$.\n\n3.  \"She is less than 75 years old.\"\n    $$r < 75$$\n\nNow we combine these findings. We need to find an integer $k$ such that $7k \\equiv 1 \\pmod{12}$ and $7k < 75$.\n\nLet's solve the congruence $7k \\equiv 1 \\pmod{12}$:\nMultiply both sides by the modular inverse of 7 modulo 12.\nSince $7 \\times 8 = 56 = 4 \\times 12 + 8 \\neq 1$, we check multiples.\nAlternatively, simply check values of $k$:\n*   If $k=1$, $r=7$. Check divisibility by 12: $7 \\not\\equiv 1 \\pmod{12}$. Fail.\n*   If $k=2$, $r=14$. Fail.\n*   If $k=3$, $r=21$. Fail.\n*   If $k=4$, $r=28$. Fail.\n*   If $k=5$, $r=35$. Fail.\n*   If $k=6$, $r=42$. Fail.\n*   If $k=7$, $r=49$. Check: $49 \\equiv 1 \\pmod{12}$ (since $49 = 4 \\times 12 + 1$). Good.\n    Also check divisibility by 7: $49 / 7 = 7$ with remainder 0. Good.\n    Check age constraint: $49 < 75$. Good.\n\nAre there any other solutions less than 75?\nWe established $r \\equiv 1 \\pmod{12}$. The form is $12m + 1$.\nWe also established $r$ is a multiple of 7.\nSo we need to solve:\n$$12m + 1 \\equiv 0 \\pmod 7$$\n$$5m + 1 \\equiv 0 \\pmod 7$$\n$$5m \\equiv -1 \\equiv 6 \\pmod 7$$\nMultiply by 3 (inverse of 5 mod 7, since $5 \\times 3 = 15 \\equiv 1$):\n$$m \\equiv 18 \\equiv 4 \\pmod 7$$\nSo $m$ can be $4, 11, 18, ...$\nSubstitute back into $r = 12m + 1$:\n*   If $m=4$, $r = 12(4) + 1 = 49$.\n*   If $m=11$, $r = 12(11) + 1 = 133$.\n*   If $m=18$, $r = 12(18) + 1 = 217$.\n\nThe only value less than 75 is 49.\n\nThus, Rosa is 49 years old.\n\n\\boxed{49}"
+    }
+   }
+  },
+  {
+   "id": "test/geometry/615.json",
+   "category": "random_multi",
+   "level": 4,
+   "subject": "Geometry",
+   "problem": "Altitudes $\\overline{AD}$ and $\\overline{BE}$ of $\\triangle ABC$ intersect at $H$.  If $\\angle BAC = 54^\\circ$ and $\\angle ABC = 52^\\circ$, then what is $\\angle AHB$?",
+   "gold": "106^\\circ",
+   "arms": {
+    "original": {
+     "tokens": 32768,
+     "limit": true,
+     "correct": false,
+     "chars": 122095,
+     "closes": 0,
+     "answer": null,
+     "loop": {
+      "start": 90124,
+      "period": 620,
+      "copies": 51,
+      "unit": "                            *   Wait, maybe I am using the wrong property.\n                            *   Wait, maybe $\\angle AHB = 180 - \\angle C$ is for the case where $H$ is the orthocenter.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, I am stuck.\n                            *   Let me check the property $\\angle AHB = 180 - \\angle C$ again.\n"
+     },
+     "head": "Here's a thinking process to solve the problem:\n\n1.  **Understand the Goal:** The objective is to find the measure of angle $\\angle AHB$ in triangle $ABC$, given two altitude lines from vertices $A$ and $B$ intersecting at a point $H$.\n\n2.  **Identify the Given Information:**\n    *   Triangle $ABC$ has vertices $A, B, C$.\n    *   Altitude from $A$ meets $BC$ at $D$ (so $AD \\perp BC$).\n    *   Altitude from $B$ meets $AC$ at $E$ (so $BE \\perp AC$).\n    *   Intersection of altitudes is $H$. Wait, the problem says \"Altitudes $\\overline{AD}$ and $\\overline{BE}$\". Let's double-check standard notation. Usually, altitude from $A$ goes to side $b$ ($CD$), but here it says \"intersect at $H$\". This implies $H$ is the orthocenter? Or maybe the feet are named differently?\n    *   Actually, let's look at the text carefully: \"Altitudes $\\overline{AD}$ and $\\overline{BE}$ of $\\triangle ABC$ intersect a",
+     "pre": "                *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, if $A=90$, $H=C$.\n                            *   Wait, I am stuck.\n                            *   Let's check the property $\\angle AHB = 180 - \\angle C$ again.\n",
+     "tail": ""
+    },
+    "opus": {
+     "tokens": 6760,
+     "limit": false,
+     "correct": true,
+     "chars": 19005,
+     "closes": 1,
+     "answer": "106^\\circ",
+     "loop": null,
+     "head": "Here's a thinking process to solve the problem:\n\n1.  **Understand the Goal:** The objective is to find the measure of angle $\\angle AHB$ given two other angles ($\\angle BAC = 54^\\circ$, $\\angle ABC = 52^\\circ$) and the fact that altitudes $AD$ and $BE$ intersect at $H$.\n\n2.  **Visualize/Draw the Diagram:**\n    *   Triangle $ABC$.\n    *   $D$ is on $BC$ (or line containing $BC$). Since it says \"Altitude $AD$\", usually implies $D$ lies on the opposite side. Let's assume standard configuration where $A, B, C$ are vertices.\n    *   Wait, let's re-read carefully: \"Altitudes $\\overline{AD}$ and $\\overline{BE}$\". This usually means altitude from $A$ to $BC$ is $AD$, and altitude from $B$ to $AC$ is $BE$. Or maybe from $C$? No, standard notation is often ambiguous without context. Let's assume $D$ is on $BC$ and $E$ is on $AC$.\n    *   Let's check if there are alternative interpretations. Could ",
+     "pre": "",
+     "tail": "180^\\circ - (38^\\circ + 36^\\circ)$.\n$\\angle AHB = 180^\\circ - 74^\\circ$.\n$\\angle AHB = 106^\\circ$.\n\nLet's double check if there are any other interpretations.\nCould $D$ be on $AB$? No, altitude from $A$ must be to a side.\nCould $E$ be on $BC$? No, altitude from $B$ must be to a side.\nIs it possible that $H$ lies outside?\nGiven $\\angle A = 54^\\circ$ and $\\angle B = 52^\\circ$, both are acute. The orthocenter lies inside the triangle if all angles are acute. Here, all angles are less than $90^\\circ$, so $H$ is strictly inside $\\triangle ABC$.\nThus, the calculation holds.\n\nAnother way to think about it involves the cyclic quadrilateral formed by the feet of the altitudes.\nHowever, the direct calculation using triangle sums is robust.\n\nLet's re-verify the steps.\n1. Identify $AD \\perp BC$ and $BE \\perp AC$.\n2. Calculate $\\angle BAD$ in $\\triangle ABD$: $\\angle BAD = 90^\\circ - \\angle ABD = 90^\\circ - 52^\\circ = 38^\\circ$.\n3. Calculate $\\angle ABE$ in $\\triangle ABE$: $\\angle ABE = 90^\\circ - \\angle BAE = 90^\\circ - 54^\\circ = 36^\\circ$.\n4. Note that $H$ lies on $AD$ and $BE$.\n5. Calculate $\\angle AHB$ in $\\triangle ABH$: $\\angle AHB = 180^\\circ - (\\angle BAH + \\angle ABH)$.\n6. Since $H$ is on $AD$, $\\angle BAH = \\angle BAD = 38^\\circ$.\n7. Since $H$ is on $BE$, $\\angle ABH = \\angle ABE = 36^\\circ$.\n8. $\\angle AHB = 180^\\circ - (38^\\circ + 36^\\circ) = 180^\\circ - 74^\\circ = 106^\\circ$.\n\nThe result seems consistent and correct.\n\nFinal Answer seems to be 106 degrees.\n\n\\boxed{106^\\circ}"
+    },
+    "random": {
+     "tokens": 9736,
+     "limit": false,
+     "correct": false,
+     "chars": 26475,
+     "closes": 3,
+     "answer": "128^\\circ",
+     "loop": null,
+     "head": "The user wants me to solve a geometry problem involving altitudes of a triangle.\n\n**1. Understand the Setup:**\n*   We have a triangle $ABC$.\n*   $\\overline{AD}$ and $\\overline{BE}$ are altitudes from vertices $A$ and $B$ respectively, intersecting at point $H$. This means $D$ lies on $BC$ and $E$ lies on $AC$. Wait, let me re-read carefully.\n    *   \"Altitudes $\\overline{AD}$ and $\\overline{BE}$\". Usually, an altitude from vertex $A$ is perpendicular to side $BC$, so it's usually denoted as $AD \\perp BC$. Let's assume standard notation where $D$ is on $BC$ and $E$ is on $AC$.\n    *   However, sometimes \"altitude\" refers to the segment from a vertex to the opposite side. So $\\overline{AD}$ is the altitude from $A$ to $BC$, meaning $AD \\perp BC$. And $\\overline{BE}$ is the altitude from $B$ to $AC$, meaning $BE \\perp AC$.\n    *   They intersect at $H$.\n    *   The problem states $\\angle BA",
+     "pre": "",
+     "tail": "'s check the derivation.\n$\\angle AHB = 180 - (\\angle HAB + \\angle HBA)$.\n$\\angle HAB = 90 - C$.\n$\\angle HBA = 90 - A$.\n$\\angle AHB = 180 - (180 - A - C) = A + C$.\nThis contradicts the formula.\nOkay, I have thought about this enough. I will stop here and give my final answer now.\n</think>\n\nTo find $\\angle AHB$, we first determine the angles of $\\triangle ABC$.\n\nGiven:\n*   $\\angle BAC = 54^\\circ$\n*   $\\angle ABC = 52^\\circ$\n\nThe sum of angles in a triangle is $180^\\circ$, so we can find $\\angle ACB$:\n$$ \\angle ACB = 180^\\circ - (\\angle BAC + \\angle ABC) = 180^\\circ - (54^\\circ + 52^\\circ) = 180^\\circ - 106^\\circ = 74^\\circ $$\n\nNow, let's analyze $\\triangle ABH$. $H$ is the intersection of altitudes $AD$ and $BE$.\nIn $\\triangle ADC$ (where $D$ is on $BC$ and $AD \\perp BC$), the angle $\\angle DAC$ is complementary to $\\angle C$:\n$$ \\angle DAC = 90^\\circ - \\angle ACB = 90^\\circ - 74^\\circ = 16^\\circ $$\nSince $H$ lies on $AD$, $\\angle HAB = \\angle DAC = 16^\\circ$.\n\nIn $\\triangle AEB$ (where $E$ is on $AC$ and $BE \\perp AC$), the angle $\\angle EBA$ is complementary to $\\angle A$:\n$$ \\angle EBA = 90^\\circ - \\angle BAC = 90^\\circ - 54^\\circ = 36^\\circ $$\nSince $H$ lies on $BE$, $\\angle HBA = \\angle EBA = 36^\\circ$.\n\nFinally, in $\\triangle ABH$, the sum of the interior angles is $180^\\circ$:\n$$ \\angle AHB = 180^\\circ - (\\angle HAB + \\angle HBA) $$\n$$ \\angle AHB = 180^\\circ - (16^\\circ + 36^\\circ) $$\n$$ \\angle AHB = 180^\\circ - 52^\\circ $$\n$$ \\angle AHB = 128^\\circ $$\n\n\\boxed{128^\\circ}"
+    }
+   }
+  }
+ ],
+ "counts": {
+  "both_clean": 32,
+  "opus_multi": 8,
+  "random_multi": 1
+ }
+}

@@ -2,7 +2,7 @@
 
 Usage (from the project root):  python paper/figuras/make_figures.py
 No plotted value is typed here: this file holds only labels, styles and offsets.
-Output: paper2/paper/latex/figures/fig{1,2,3}.pdf (+ .png for checking) and paper2/blog/figures/fig{1,2,3}.svg. Same visual style as paper 1.
+Output: paper2/paper/latex/figures/fig{1,2,3}.pdf (+ .png for checking). Same visual style as paper 1.
 """
 from pathlib import Path
 
@@ -18,8 +18,6 @@ RES = ROOT / "resultados"
 REV = RES / "revision"
 OUT = Path(__file__).resolve().parents[1] / "latex" / "figures"
 OUT.mkdir(parents=True, exist_ok=True)
-BLOG = ROOT / "docs" / "figures"   # same figures, as SVG, for the blog
-BLOG.mkdir(parents=True, exist_ok=True)
 
 # ---- One style for all figures (Okabe-Ito palette, as in paper 1) ----
 C_ORIG, C_P50C = "#0072B2", "#D55E00"
@@ -51,7 +49,6 @@ def seeds(text, sep=" / "):
 def save(fig, name):
     fig.savefig(OUT / f"{name}.pdf", bbox_inches="tight", pad_inches=0.03)
     fig.savefig(OUT / f"{name}.png", dpi=300, bbox_inches="tight", pad_inches=0.03)
-    fig.savefig(BLOG / f"{name}.svg", bbox_inches="tight", pad_inches=0.03, metadata={"Date": None})
     plt.close(fig)
 
 
