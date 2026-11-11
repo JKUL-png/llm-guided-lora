@@ -1,0 +1,4 @@
+# Archivos generados por scripts: GitHub no los cuenta en las estadisticas de lenguaje
+paper/latex/generated/** linguist-generated=true
+docs/index.html linguist-generated=true
+docs/vendor/** linguist-vendored=true

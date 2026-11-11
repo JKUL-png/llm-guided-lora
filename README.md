@@ -6,8 +6,8 @@ Claude Opus diagnosed why Qwen3.5-0.8B gets stuck in reasoning loops and chose w
 
 This is part 2 of [decomposing-the-gain](https://github.com/JKUL-png/decomposing-the-gain).
 
-- **Blog:** `docs/index.html` (open it locally; it needs no network)
-- **Paper:** `docs/paper.pdf`, LaTeX sources in `paper/latex/`
+- **Blog:** https://jkul-png.github.io/llm-guided-lora/
+- **Paper:** [paper/llm_guided_lora.pdf](paper/llm_guided_lora.pdf), LaTeX sources in `paper/latex/`
 
 Authors: Juan José Giraldo Márquez and Juan José Gómez. Figures by Juan José Gómez, made with AI assistance.
 
@@ -15,8 +15,8 @@ Authors: Juan José Giraldo Márquez and Juan José Gómez. Figures by Juan Jos�
 
 | Folder | Contents |
 |---|---|
-| `docs/` | The blog and the paper PDF. KaTeX is hosted here, with no CDN. |
-| `paper/` | LaTeX sources (`latex/`, with the generated macros and tables in `latex/generated/`) and the figures with their script (`figuras/`). |
+| `docs/` | The blog, served with GitHub Pages, and a copy of the paper PDF. KaTeX is hosted here, with no CDN. |
+| `paper/` | PDF, LaTeX sources (`latex/`, with the generated macros and tables in `latex/generated/`) and the figures with their script (`figuras/`). |
 | `resultados/` | Results: one CSV per run with one row per problem (`p3/eval/`, `calificacion/`), the training and merge records, the layer sweep, and the corrected analysis after the external review (`revision/`). `ANALISIS_FINAL.md` is the full analysis, in Spanish. |
 | `datos/` | Training data, diagnostic problems, the fixed evaluation subsets and the manifest of the published edit. |
 | `plan/` | The plan and the arm designs, written before the results (in Spanish). |
